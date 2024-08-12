@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "d5yWJMzKGMIBn6OHtoiHH8imeZkM7igaYBkPNH/Nqvs=",
+  "Source": "AdminModule",
+  "BasePath": "_content/AdminModule",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
