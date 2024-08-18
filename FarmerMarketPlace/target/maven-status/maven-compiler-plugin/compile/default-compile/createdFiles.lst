@@ -1,0 +1,13 @@
+com\spring\FarmerMarketPlace\FarmerMarketPlaceApplication.class
+com\spring\FarmerMarketPlace\model\USER_ROLE.class
+com\spring\FarmerMarketPlace\model\Order.class
+com\spring\FarmerMarketPlace\model\Farmer.class
+com\spring\FarmerMarketPlace\model\Product.class
+com\spring\FarmerMarketPlace\model\Address.class
+com\spring\FarmerMarketPlace\model\OrderItem.class
+com\spring\FarmerMarketPlace\model\CartItem.class
+com\spring\FarmerMarketPlace\model\Category.class
+com\spring\FarmerMarketPlace\model\Cart.class
+com\spring\FarmerMarketPlace\Dto\FarmerDto.class
+com\spring\FarmerMarketPlace\model\ContactInformation.class
+com\spring\FarmerMarketPlace\model\User.class
