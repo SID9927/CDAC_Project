@@ -1,0 +1,5 @@
+.footer-transparent {
+    background-color: rgba(13, 110, 253, 0.7);  /* Using primary color with 70% opacity */
+    backdrop-filter: blur(5px);  /* Adds a slight blur effect */
+  }
+  
