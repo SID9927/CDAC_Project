@@ -17,12 +17,12 @@ builder.Services.AddSingleton<IDbContextFactory, DbContextFactory>();
 
 builder.Services.AddSingleton<IAdminDao, AdminDaoImpl>();
 builder.Services.AddSingleton<IStockDetailsRepository, StockDetailsRepository>();
-builder.Services.AddSingleton<IUserDao, UserDaoImpl>();
+builder.Services.AddScoped<IUserDao, UserDaoImpl>();
 builder.Services.AddSingleton<IFarmersDao, FarmersDaoImpl>();
 
 builder.Services.AddSingleton<IFarmersService, FarmersServiceImpl>();
 builder.Services.AddSingleton<IAdminService, AdminServiceImpl>();
-builder.Services.AddSingleton<IUserService, UserServiceImpl>();
+builder.Services.AddScoped<IUserService, UserServiceImpl>();
 
 builder.Services.AddCors(options =>
 {

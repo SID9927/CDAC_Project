@@ -42,13 +42,17 @@ namespace DotnetBackend.Controllers
 
             destinationObject.FarmerId = farmerid;
 
-            int? count = product.CategoryId;
-            _adminService.GetCategory((int)count);
+            if (product.CategoryId.HasValue)
+            {
+                var cat = _adminService.GetCategory(product.CategoryId.Value);
+                if (cat == null)
+                {
+                    throw new Exception("Invalid Category");
+                }
 
-            //destinationObject.Category = _adminService.GetCategory((int)count);
-
-
-            destinationObject.CategoryId = product.CategoryId;
+                destinationObject.CategoryId = product.CategoryId;
+            }
+            
 
             _adminService.AddProduct(farmerid, destinationObject);
             return Ok("Product Added Successfully");

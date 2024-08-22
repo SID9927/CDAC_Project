@@ -1,53 +1,97 @@
-import httpClient from '../http-common-spring';
+import httpClient from "../http-common-dotnet";
 
 const login = (data) => {
-  return httpClient.post('/user/login', data);
+ 
+  // return fetch('https://localhost:7213/user/login', {
+  //   method: 'POST',
+  //   headers: {
+  //     'Content-Type': 'application/json',
+  //   },
+  //   body: JSON.stringify(data),
+  // })
+  return httpClient.post("/user/login", data);
 };
 
 const register = (data) => {
-  return httpClient.post('/user/register', data);
+  return httpClient.post("/user/register", data);
 };
 
 const getCategory = () => {
-  return httpClient.get('/admin/categorylist');
-}
+  return httpClient.get("/admin/categorylist");
+};
 
 const removeCategory = (categoryid) => {
   return httpClient.get(`/admin/removecategory/${categoryid}`);
-}
+};
 
 const addCategory = (categoryName) => {
   return httpClient.get(`/admin/addcategory/${categoryName}`);
-}
+};
 
 const addProduct = (data, farmerId) => {
-  return httpClient.post(`/admin/newproduct/${farmerId}`, data)
-}
+  return httpClient.post(`/admin/newproduct/${farmerId}`, data);
+};
 
 const addProductImage = (file, id) => {
   return httpClient.post(`/admin/${id}/image`, file);
 };
 
 const updateProduct = (id, form) => {
-  return httpClient.put(`/admin/updateproduct/${id}`, form)
-}
+  return httpClient.put(`/admin/updateproduct/${id}`, form);
+};
 
 const orderDetails = () => {
-  return httpClient.get('/admin/allorders');
-}
+  return httpClient.get("/admin/allorders");
+};
 
 const getUsersList = () => {
-  return httpClient.get('/admin/allusers');
-}
+  return httpClient.get("/admin/allusers");
+};
 
-const getSpecificUserDetails = id => {
-  return httpClient.get(`/admin/userdetails/${id}`)
-}
+const getSpecificUserDetails = (id) => {
+  return httpClient.get(`/admin/userdetails/${id}`);
+};
 
 const updateUser = (id, data) => {
-  return httpClient.post(`/admin/updateuser/${id}`, data)
-}
+  return httpClient.post(`/admin/updateuser/${id}`, data);
+};
 
-export default { login, register, getCategory, removeCategory, addCategory, addProduct, addProductImage, updateProduct, orderDetails,
-                 getUsersList, getSpecificUserDetails, updateUser
-              }
+const getFarmerCount = () => {
+  return httpClient.get("/admin/farmercount");
+};
+
+const getOrderCount = () => {
+  return httpClient.get("/admin/ordercount");
+};
+
+const getProductCount = () => {
+  return httpClient.get("/admin/productcount");
+};
+
+const getUserCount = () => {
+  return httpClient.get("/admin/usercount");
+};
+
+const getCategoryCount = () => {
+  return httpClient.get("/admin/categorycount");
+};
+
+export default {
+  login,
+  register,
+  getCategory,
+  removeCategory,
+  addCategory,
+  addProduct,
+  addProductImage,
+  updateProduct,
+  orderDetails,
+  getUsersList,
+  getSpecificUserDetails,
+  updateUser,
+  getFarmerCount,
+  getOrderCount,
+  getProductCount,
+  getUserCount,
+  getCategoryCount,
+};

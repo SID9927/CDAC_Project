@@ -3,52 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\controllers\\statscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\controllers\\statscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\entitymapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\entitymapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\services\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\services\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\services\\userserviceimpl.txt||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\services\\userserviceimpl.txt||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\services\\pdfexportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\services\\pdfexportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\services\\iuserservice.txt||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\services\\iuserservice.txt||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\services\\ifarmersservice.txt||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\services\\ifarmersservice.txt||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\services\\farmersserviceimpl.txt||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\services\\farmersserviceimpl.txt||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\services\\emailsenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\services\\emailsenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\services\\adminserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\services\\adminserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\data\\farmersmarket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,36 +23,16 @@
       "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\data\\dbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\dao\\iadmindao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\dao\\iadmindao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\dao\\admindaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\dao\\admindaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\customexceptionhandler\\resourcenotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\customexceptionhandler\\resourcenotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\dao\\userdaoimpl.txt||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\dao\\userdaoimpl.txt||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\dao\\iuserdao.txt||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\dao\\iuserdao.txt||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\dao\\farmersdaoimpl.txt||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\dao\\farmersdaoimpl.txt||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\controllers\\usercontroller.txt||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\controllers\\usercontroller.txt||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\controllers\\farmercontoller.txt||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\controllers\\farmercontoller.txt||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\services\\adminserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\services\\adminserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\repository\\stockdetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -97,6 +41,86 @@
     {
       "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\repository\\istockdetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\repository\\istockdetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\dao\\iadmindao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\dao\\iadmindao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\services\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\services\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\dto\\stockdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\dto\\stockdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\models\\stockdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\models\\stockdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\dao\\userdaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\dao\\userdaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\services\\userserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\services\\userserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\models\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\models\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\data\\idbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\data\\idbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\dao\\iuserdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\dao\\iuserdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\dao\\farmersdaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\dao\\farmersdaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\services\\farmersserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\services\\farmersserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\services\\ifarmersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\services\\ifarmersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\entitymapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\entitymapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\services\\pdfexportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\services\\pdfexportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\services\\emailsenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\services\\emailsenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\dao\\admindaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\dao\\admindaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\customexceptionhandler\\resourcenotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\customexceptionhandler\\resourcenotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -123,10 +147,6 @@
       "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\data\\idbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\data\\idbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\dotnetbackend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\dotnetbackend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -151,18 +171,6 @@
       "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\models\\stockdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\models\\stockdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\dto\\stockdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\dto\\stockdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -173,10 +181,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\models\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|solutionrelative:dotnetbackend\\models\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D44E0C92-D27F-4889-A9AD-DE54A98953EB}|DotnetBackend\\DotnetBackend.csproj|c:\\users\\sid74\\desktop\\fmp\\fmp\\fmp dotnet\\dotnetbackend\\dotnetbackend\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -190,7 +194,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -202,55 +206,89 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IUserService.txt",
-              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Services\\IUserService.txt",
-              "RelativeDocumentMoniker": "DotnetBackend\\Services\\IUserService.txt",
-              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Services\\IUserService.txt",
-              "RelativeToolTip": "DotnetBackend\\Services\\IUserService.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-02-25T21:07:09.867Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PdfExportService.cs",
-              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Services\\PdfExportService.cs",
-              "RelativeDocumentMoniker": "DotnetBackend\\Services\\PdfExportService.cs",
-              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Services\\PdfExportService.cs",
-              "RelativeToolTip": "DotnetBackend\\Services\\PdfExportService.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwCMAAABbAAAA",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "DotnetBackend\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Controllers\\UserController.cs",
+              "RelativeToolTip": "DotnetBackend\\Controllers\\UserController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAQwIUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T12:48:29.289Z",
+              "WhenOpened": "2024-08-22T16:08:05.795Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserServiceImpl.txt",
-              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Services\\UserServiceImpl.txt",
-              "RelativeDocumentMoniker": "DotnetBackend\\Services\\UserServiceImpl.txt",
-              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Services\\UserServiceImpl.txt",
-              "RelativeToolTip": "DotnetBackend\\Services\\UserServiceImpl.txt",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-02-25T21:05:38.01Z",
+              "DocumentIndex": 1,
+              "Title": "StatsController.cs",
+              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Controllers\\StatsController.cs",
+              "RelativeDocumentMoniker": "DotnetBackend\\Controllers\\StatsController.cs",
+              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Controllers\\StatsController.cs",
+              "RelativeToolTip": "DotnetBackend\\Controllers\\StatsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T13:00:11.468Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StockDetailDTO.cs",
+              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\DTO\\StockDetailDTO.cs",
+              "RelativeDocumentMoniker": "DotnetBackend\\DTO\\StockDetailDTO.cs",
+              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\DTO\\StockDetailDTO.cs",
+              "RelativeToolTip": "DotnetBackend\\DTO\\StockDetailDTO.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwBQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T14:10:07.611Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\EntityMapping\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "DotnetBackend\\EntityMapping\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\EntityMapping\\MappingProfile.cs",
-              "RelativeToolTip": "DotnetBackend\\EntityMapping\\MappingProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Title": "Farmersmarket.cs",
+              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Data\\Farmersmarket.cs",
+              "RelativeDocumentMoniker": "DotnetBackend\\Data\\Farmersmarket.cs",
+              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Data\\Farmersmarket.cs",
+              "RelativeToolTip": "DotnetBackend\\Data\\Farmersmarket.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwB4AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T16:51:44.347Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-28T09:01:35.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Data\\DbContextFactory.cs",
+              "RelativeDocumentMoniker": "DotnetBackend\\Data\\DbContextFactory.cs",
+              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Data\\DbContextFactory.cs",
+              "RelativeToolTip": "DotnetBackend\\Data\\DbContextFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T16:59:15.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Program.cs",
+              "RelativeDocumentMoniker": "DotnetBackend\\Program.cs",
+              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Program.cs",
+              "RelativeToolTip": "DotnetBackend\\Program.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAABgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T06:12:00.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "DotnetBackend\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\WeatherForecast.cs",
+              "RelativeToolTip": "DotnetBackend\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T13:18:11.792Z"
             },
             {
               "$type": "Document",
@@ -260,209 +298,13 @@
               "RelativeDocumentMoniker": "DotnetBackend\\Controllers\\AdminController.cs",
               "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Controllers\\AdminController.cs",
               "RelativeToolTip": "DotnetBackend\\Controllers\\AdminController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAhAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T05:33:34.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "DotnetBackend\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Properties\\launchSettings.json",
-              "RelativeToolTip": "DotnetBackend\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAuwCYAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-19T18:58:14.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Program.cs",
-              "RelativeDocumentMoniker": "DotnetBackend\\Program.cs",
-              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Program.cs",
-              "RelativeToolTip": "DotnetBackend\\Program.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAuwFUAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T06:12:00.249Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IAdminService.cs",
-              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Services\\IAdminService.cs",
-              "RelativeDocumentMoniker": "DotnetBackend\\Services\\IAdminService.cs",
-              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Services\\IAdminService.cs",
-              "RelativeToolTip": "DotnetBackend\\Services\\IAdminService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAIwAgAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T12:02:34.014Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FarmersServiceImpl.txt",
-              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Services\\FarmersServiceImpl.txt",
-              "RelativeDocumentMoniker": "DotnetBackend\\Services\\FarmersServiceImpl.txt",
-              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Services\\FarmersServiceImpl.txt",
-              "RelativeToolTip": "DotnetBackend\\Services\\FarmersServiceImpl.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-08-21T16:44:55.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-22T05:33:34.454Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "IFarmersService.txt",
-              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Services\\IFarmersService.txt",
-              "RelativeDocumentMoniker": "DotnetBackend\\Services\\IFarmersService.txt",
-              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Services\\IFarmersService.txt",
-              "RelativeToolTip": "DotnetBackend\\Services\\IFarmersService.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-08-21T16:45:10.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EmailSenderService.cs",
-              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Services\\EmailSenderService.cs",
-              "RelativeDocumentMoniker": "DotnetBackend\\Services\\EmailSenderService.cs",
-              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Services\\EmailSenderService.cs",
-              "RelativeToolTip": "DotnetBackend\\Services\\EmailSenderService.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAYwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T16:44:48.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DbContextFactory.cs",
-              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Data\\DbContextFactory.cs",
-              "RelativeDocumentMoniker": "DotnetBackend\\Data\\DbContextFactory.cs",
-              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Data\\DbContextFactory.cs",
-              "RelativeToolTip": "DotnetBackend\\Data\\DbContextFactory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T16:59:15.245Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IAdminDao.cs",
-              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\DAO\\IAdminDao.cs",
-              "RelativeDocumentMoniker": "DotnetBackend\\DAO\\IAdminDao.cs",
-              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\DAO\\IAdminDao.cs",
-              "RelativeToolTip": "DotnetBackend\\DAO\\IAdminDao.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T21:07:44.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AdminDaoImpl.cs",
-              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\DAO\\AdminDaoImpl.cs",
-              "RelativeDocumentMoniker": "DotnetBackend\\DAO\\AdminDaoImpl.cs",
-              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\DAO\\AdminDaoImpl.cs",
-              "RelativeToolTip": "DotnetBackend\\DAO\\AdminDaoImpl.cs",
-              "ViewState": "AQIAAKIAAAAAAAAAAAAcwHMAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T05:48:01.427Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ResourceNotFoundException.cs",
-              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\CustomExceptionHandler\\ResourceNotFoundException.cs",
-              "RelativeDocumentMoniker": "DotnetBackend\\CustomExceptionHandler\\ResourceNotFoundException.cs",
-              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\CustomExceptionHandler\\ResourceNotFoundException.cs",
-              "RelativeToolTip": "DotnetBackend\\CustomExceptionHandler\\ResourceNotFoundException.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T16:43:25.115Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IUserDao.txt",
-              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\DAO\\IUserDao.txt",
-              "RelativeDocumentMoniker": "DotnetBackend\\DAO\\IUserDao.txt",
-              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\DAO\\IUserDao.txt",
-              "RelativeToolTip": "DotnetBackend\\DAO\\IUserDao.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-08-21T16:41:55.389Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Farmersmarket.cs",
-              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Data\\Farmersmarket.cs",
-              "RelativeDocumentMoniker": "DotnetBackend\\Data\\Farmersmarket.cs",
-              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Data\\Farmersmarket.cs",
-              "RelativeToolTip": "DotnetBackend\\Data\\Farmersmarket.cs",
-              "ViewState": "AQIAAMAAAAAAAAAAAAAuwAkAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T09:01:35.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AdminServiceImpl.cs",
-              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Services\\AdminServiceImpl.cs",
-              "RelativeDocumentMoniker": "DotnetBackend\\Services\\AdminServiceImpl.cs",
-              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Services\\AdminServiceImpl.cs",
-              "RelativeToolTip": "DotnetBackend\\Services\\AdminServiceImpl.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJUAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T05:33:15.822Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "UserController.txt",
-              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Controllers\\UserController.txt",
-              "RelativeDocumentMoniker": "DotnetBackend\\Controllers\\UserController.txt",
-              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Controllers\\UserController.txt",
-              "RelativeToolTip": "DotnetBackend\\Controllers\\UserController.txt",
-              "ViewState": "AQIAABoAAAAAAAAAAAAAwAYAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-02-22T06:58:59.925Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "FarmerContoller.txt",
-              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Controllers\\FarmerContoller.txt",
-              "RelativeDocumentMoniker": "DotnetBackend\\Controllers\\FarmerContoller.txt",
-              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Controllers\\FarmerContoller.txt",
-              "RelativeToolTip": "DotnetBackend\\Controllers\\FarmerContoller.txt",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAUAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-02-25T17:30:33.688Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
               "Title": "StockDetailsRepository.cs",
               "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Repository\\StockDetailsRepository.cs",
               "RelativeDocumentMoniker": "DotnetBackend\\Repository\\StockDetailsRepository.cs",
@@ -470,12 +312,11 @@
               "RelativeToolTip": "DotnetBackend\\Repository\\StockDetailsRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T06:02:09.072Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-22T06:02:09.072Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 9,
               "Title": "IStockDetailsRepository.cs",
               "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Repository\\IStockDetailsRepository.cs",
               "RelativeDocumentMoniker": "DotnetBackend\\Repository\\IStockDetailsRepository.cs",
@@ -483,38 +324,252 @@
               "RelativeToolTip": "DotnetBackend\\Repository\\IStockDetailsRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T09:00:20.388Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-28T09:00:20.388Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UserDaoImpl.txt",
-              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\DAO\\UserDaoImpl.txt",
-              "RelativeDocumentMoniker": "DotnetBackend\\DAO\\UserDaoImpl.txt",
-              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\DAO\\UserDaoImpl.txt",
-              "RelativeToolTip": "DotnetBackend\\DAO\\UserDaoImpl.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "DocumentIndex": 7,
+              "Title": "AdminServiceImpl.cs",
+              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Services\\AdminServiceImpl.cs",
+              "RelativeDocumentMoniker": "DotnetBackend\\Services\\AdminServiceImpl.cs",
+              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Services\\AdminServiceImpl.cs",
+              "RelativeToolTip": "DotnetBackend\\Services\\AdminServiceImpl.cs",
+              "ViewState": "AQIAAHQAAAAAAAAAAAA3wEcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T05:33:15.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IAdminService.cs",
+              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Services\\IAdminService.cs",
+              "RelativeDocumentMoniker": "DotnetBackend\\Services\\IAdminService.cs",
+              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Services\\IAdminService.cs",
+              "RelativeToolTip": "DotnetBackend\\Services\\IAdminService.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAuwBEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T12:02:34.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StockDetail.cs",
+              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Models\\StockDetail.cs",
+              "RelativeDocumentMoniker": "DotnetBackend\\Models\\StockDetail.cs",
+              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Models\\StockDetail.cs",
+              "RelativeToolTip": "DotnetBackend\\Models\\StockDetail.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwBYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T10:25:11.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Models\\User.cs",
+              "RelativeDocumentMoniker": "DotnetBackend\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Models\\User.cs",
+              "RelativeToolTip": "DotnetBackend\\Models\\User.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T05:09:44.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IAdminDao.cs",
+              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\DAO\\IAdminDao.cs",
+              "RelativeDocumentMoniker": "DotnetBackend\\DAO\\IAdminDao.cs",
+              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\DAO\\IAdminDao.cs",
+              "RelativeToolTip": "DotnetBackend\\DAO\\IAdminDao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T21:07:44.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserDaoImpl.cs",
+              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\DAO\\UserDaoImpl.cs",
+              "RelativeDocumentMoniker": "DotnetBackend\\DAO\\UserDaoImpl.cs",
+              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\DAO\\UserDaoImpl.cs",
+              "RelativeToolTip": "DotnetBackend\\DAO\\UserDaoImpl.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAowCQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-25T18:48:35.266Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserServiceImpl.cs",
+              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Services\\UserServiceImpl.cs",
+              "RelativeDocumentMoniker": "DotnetBackend\\Services\\UserServiceImpl.cs",
+              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Services\\UserServiceImpl.cs",
+              "RelativeToolTip": "DotnetBackend\\Services\\UserServiceImpl.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T21:05:38.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Data\\IDbContextFactory.cs",
+              "RelativeDocumentMoniker": "DotnetBackend\\Data\\IDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Data\\IDbContextFactory.cs",
+              "RelativeToolTip": "DotnetBackend\\Data\\IDbContextFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T16:58:41.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Authentication.cs",
+              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Models\\Authentication.cs",
+              "RelativeDocumentMoniker": "DotnetBackend\\Models\\Authentication.cs",
+              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Models\\Authentication.cs",
+              "RelativeToolTip": "DotnetBackend\\Models\\Authentication.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T20:40:25.374Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "FarmersDaoImpl.txt",
-              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\DAO\\FarmersDaoImpl.txt",
-              "RelativeDocumentMoniker": "DotnetBackend\\DAO\\FarmersDaoImpl.txt",
-              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\DAO\\FarmersDaoImpl.txt",
-              "RelativeToolTip": "DotnetBackend\\DAO\\FarmersDaoImpl.txt",
+              "Title": "IUserDao.cs",
+              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\DAO\\IUserDao.cs",
+              "RelativeDocumentMoniker": "DotnetBackend\\DAO\\IUserDao.cs",
+              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\DAO\\IUserDao.cs",
+              "RelativeToolTip": "DotnetBackend\\DAO\\IUserDao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T16:41:55.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FarmersDaoImpl.cs",
+              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\DAO\\FarmersDaoImpl.cs",
+              "RelativeDocumentMoniker": "DotnetBackend\\DAO\\FarmersDaoImpl.cs",
+              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\DAO\\FarmersDaoImpl.cs",
+              "RelativeToolTip": "DotnetBackend\\DAO\\FarmersDaoImpl.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-02-26T10:59:45.347Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T10:59:45.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FarmersServiceImpl.cs",
+              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Services\\FarmersServiceImpl.cs",
+              "RelativeDocumentMoniker": "DotnetBackend\\Services\\FarmersServiceImpl.cs",
+              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Services\\FarmersServiceImpl.cs",
+              "RelativeToolTip": "DotnetBackend\\Services\\FarmersServiceImpl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T16:44:55.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IFarmersService.cs",
+              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Services\\IFarmersService.cs",
+              "RelativeDocumentMoniker": "DotnetBackend\\Services\\IFarmersService.cs",
+              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Services\\IFarmersService.cs",
+              "RelativeToolTip": "DotnetBackend\\Services\\IFarmersService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T16:45:10.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "DotnetBackend\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Services\\IUserService.cs",
+              "RelativeToolTip": "DotnetBackend\\Services\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T21:07:09.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "DotnetBackend\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "DotnetBackend\\Properties\\launchSettings.json",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAIAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-19T18:58:14.052Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\EntityMapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "DotnetBackend\\EntityMapping\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\EntityMapping\\MappingProfile.cs",
+              "RelativeToolTip": "DotnetBackend\\EntityMapping\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T16:51:44.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PdfExportService.cs",
+              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Services\\PdfExportService.cs",
+              "RelativeDocumentMoniker": "DotnetBackend\\Services\\PdfExportService.cs",
+              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Services\\PdfExportService.cs",
+              "RelativeToolTip": "DotnetBackend\\Services\\PdfExportService.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwCMAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T12:48:29.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EmailSenderService.cs",
+              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Services\\EmailSenderService.cs",
+              "RelativeDocumentMoniker": "DotnetBackend\\Services\\EmailSenderService.cs",
+              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Services\\EmailSenderService.cs",
+              "RelativeToolTip": "DotnetBackend\\Services\\EmailSenderService.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T16:44:48.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AdminDaoImpl.cs",
+              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\DAO\\AdminDaoImpl.cs",
+              "RelativeDocumentMoniker": "DotnetBackend\\DAO\\AdminDaoImpl.cs",
+              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\DAO\\AdminDaoImpl.cs",
+              "RelativeToolTip": "DotnetBackend\\DAO\\AdminDaoImpl.cs",
+              "ViewState": "AQIAAKIAAAAAAAAAAAAcwHMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T05:48:01.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ResourceNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\CustomExceptionHandler\\ResourceNotFoundException.cs",
+              "RelativeDocumentMoniker": "DotnetBackend\\CustomExceptionHandler\\ResourceNotFoundException.cs",
+              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\CustomExceptionHandler\\ResourceNotFoundException.cs",
+              "RelativeToolTip": "DotnetBackend\\CustomExceptionHandler\\ResourceNotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T16:43:25.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
               "Title": "CategoryDTO.cs",
               "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\DTO\\CategoryDTO.cs",
               "RelativeDocumentMoniker": "DotnetBackend\\DTO\\CategoryDTO.cs",
@@ -522,12 +577,11 @@
               "RelativeToolTip": "DotnetBackend\\DTO\\CategoryDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T20:52:40.491Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-25T20:52:40.491Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 32,
               "Title": "CategoryStockDetailDTO.cs",
               "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\DTO\\CategoryStockDetailDTO.cs",
               "RelativeDocumentMoniker": "DotnetBackend\\DTO\\CategoryStockDetailDTO.cs",
@@ -535,12 +589,11 @@
               "RelativeToolTip": "DotnetBackend\\DTO\\CategoryStockDetailDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T15:13:09.761Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-25T15:13:09.761Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 30,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\appsettings.json",
               "RelativeDocumentMoniker": "DotnetBackend\\appsettings.json",
@@ -548,12 +601,11 @@
               "RelativeToolTip": "DotnetBackend\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-03T07:27:07.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-03T07:27:07.747Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 33,
               "Title": "FarmerDTO.cs",
               "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\DTO\\FarmerDTO.cs",
               "RelativeDocumentMoniker": "DotnetBackend\\DTO\\FarmerDTO.cs",
@@ -561,12 +613,11 @@
               "RelativeToolTip": "DotnetBackend\\DTO\\FarmerDTO.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T14:04:46.053Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-25T14:04:46.053Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 34,
               "Title": "OrderDetailDTO.cs",
               "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\DTO\\OrderDetailDTO.cs",
               "RelativeDocumentMoniker": "DotnetBackend\\DTO\\OrderDetailDTO.cs",
@@ -574,12 +625,11 @@
               "RelativeToolTip": "DotnetBackend\\DTO\\OrderDetailDTO.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T14:07:14.374Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-25T14:07:14.374Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 35,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\DTO\\UserDTO.cs",
               "RelativeDocumentMoniker": "DotnetBackend\\DTO\\UserDTO.cs",
@@ -587,25 +637,11 @@
               "RelativeToolTip": "DotnetBackend\\DTO\\UserDTO.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAwBQAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T13:59:44.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-25T13:59:44.891Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "IDbContextFactory.cs",
-              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Data\\IDbContextFactory.cs",
-              "RelativeDocumentMoniker": "DotnetBackend\\Data\\IDbContextFactory.cs",
-              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Data\\IDbContextFactory.cs",
-              "RelativeToolTip": "DotnetBackend\\Data\\IDbContextFactory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T16:58:41.819Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 36,
               "Title": "DotnetBackend.csproj",
               "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\DotnetBackend.csproj",
               "RelativeDocumentMoniker": "DotnetBackend\\DotnetBackend.csproj",
@@ -613,12 +649,11 @@
               "RelativeToolTip": "DotnetBackend\\DotnetBackend.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwDkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-21T12:17:59.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T12:17:59.079Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 37,
               "Title": "OrderDTO.cs",
               "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\DTO\\OrderDTO.cs",
               "RelativeDocumentMoniker": "DotnetBackend\\DTO\\OrderDTO.cs",
@@ -626,12 +661,11 @@
               "RelativeToolTip": "DotnetBackend\\DTO\\OrderDTO.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAwAYAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T14:03:29.316Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-25T14:03:29.316Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 38,
               "Title": "CategoryStockDetail.cs",
               "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Models\\CategoryStockDetail.cs",
               "RelativeDocumentMoniker": "DotnetBackend\\Models\\CategoryStockDetail.cs",
@@ -639,12 +673,11 @@
               "RelativeToolTip": "DotnetBackend\\Models\\CategoryStockDetail.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T15:12:24.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-25T15:12:24.093Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 39,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\appsettings.Development.json",
               "RelativeDocumentMoniker": "DotnetBackend\\appsettings.Development.json",
@@ -652,12 +685,11 @@
               "RelativeToolTip": "DotnetBackend\\appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-03T07:27:58.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-03T07:27:58.833Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 40,
               "Title": "Farmer.cs",
               "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Models\\Farmer.cs",
               "RelativeDocumentMoniker": "DotnetBackend\\Models\\Farmer.cs",
@@ -665,12 +697,11 @@
               "RelativeToolTip": "DotnetBackend\\Models\\Farmer.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAwwAsAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T05:12:39.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-22T05:12:39.392Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 41,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Models\\Category.cs",
               "RelativeDocumentMoniker": "DotnetBackend\\Models\\Category.cs",
@@ -678,51 +709,11 @@
               "RelativeToolTip": "DotnetBackend\\Models\\Category.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAIBJwA0AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T20:50:14.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-25T20:50:14.767Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "StockDetail.cs",
-              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Models\\StockDetail.cs",
-              "RelativeDocumentMoniker": "DotnetBackend\\Models\\StockDetail.cs",
-              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Models\\StockDetail.cs",
-              "RelativeToolTip": "DotnetBackend\\Models\\StockDetail.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBYAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T10:25:11.801Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "StockDetailDTO.cs",
-              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\DTO\\StockDetailDTO.cs",
-              "RelativeDocumentMoniker": "DotnetBackend\\DTO\\StockDetailDTO.cs",
-              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\DTO\\StockDetailDTO.cs",
-              "RelativeToolTip": "DotnetBackend\\DTO\\StockDetailDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAIBZwBMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T14:10:07.611Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Models\\User.cs",
-              "RelativeDocumentMoniker": "DotnetBackend\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Models\\User.cs",
-              "RelativeToolTip": "DotnetBackend\\Models\\User.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAgwAgAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T05:09:44.374Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "OrderDetail.cs",
               "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Models\\OrderDetail.cs",
               "RelativeDocumentMoniker": "DotnetBackend\\Models\\OrderDetail.cs",
@@ -730,12 +721,11 @@
               "RelativeToolTip": "DotnetBackend\\Models\\OrderDetail.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAwAwAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T14:06:26.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-25T14:06:26.247Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Models\\Order.cs",
               "RelativeDocumentMoniker": "DotnetBackend\\Models\\Order.cs",
@@ -743,12 +733,11 @@
               "RelativeToolTip": "DotnetBackend\\Models\\Order.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAQwBIAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T14:02:41.206Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-25T14:02:41.206Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "Cart.cs",
               "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Models\\Cart.cs",
               "RelativeDocumentMoniker": "DotnetBackend\\Models\\Cart.cs",
@@ -756,25 +745,11 @@
               "RelativeToolTip": "DotnetBackend\\Models\\Cart.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAIBZwAwAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T19:29:15.235Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-25T19:29:15.235Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "Authentication.cs",
-              "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Models\\Authentication.cs",
-              "RelativeDocumentMoniker": "DotnetBackend\\Models\\Authentication.cs",
-              "ToolTip": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Models\\Authentication.cs",
-              "RelativeToolTip": "DotnetBackend\\Models\\Authentication.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T20:40:25.374Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "ApiResponse.cs",
               "DocumentMoniker": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\Models\\ApiResponse.cs",
               "RelativeDocumentMoniker": "DotnetBackend\\Models\\ApiResponse.cs",
@@ -782,8 +757,7 @@
               "RelativeToolTip": "DotnetBackend\\Models\\ApiResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T20:40:10.795Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-25T20:40:10.795Z"
             }
           ]
         }

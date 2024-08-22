@@ -1,6 +1,6 @@
 function PageLoading() {
     return (
-        <img src="https://miro.medium.com/max/1400/1*CsJ05WEGfunYMLGfsT2sXA.gif" style={{
+        <img src="https://tenor.com/en-GB/view/loading-loading-forever-bobux-loader-gif-18368917" style={{
             height: '40%',
             display: 'block',
             marginLeft: 'auto',

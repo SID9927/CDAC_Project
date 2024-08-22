@@ -1,5 +1,6 @@
 import httpClient from '../http-common-spring';
 
+
 const addToCart = (id, form) => {
     return httpClient.post(`/user/addtocart/${id}`, form);
 };

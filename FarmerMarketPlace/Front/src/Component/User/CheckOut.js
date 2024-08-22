@@ -99,7 +99,7 @@ function CheckOut() {
                                         <td>{c.price}</td>
                                         <td>{c.amount}</td>
                                         <td className="text-center">
-                                            <img src={`http://localhost:8080/FarmersMarketplace/admin/${c.id}`} alt='productImage' width={75} />
+                                            <img src={`http://localhost:9090/FarmersMarketplace/admin/${c.id}`} alt='productImage' width={75} />
                                         </td>
                                         <td>
                                             <button className="btn btn-danger ml-2" onClick={() => { removeItem(cart.indexOf(c)) }}> <i class="fa fa-trash" aria-hidden="true"></i> </button>

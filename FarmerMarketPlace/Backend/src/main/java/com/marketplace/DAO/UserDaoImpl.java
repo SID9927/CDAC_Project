@@ -45,7 +45,7 @@ public class UserDaoImpl implements IUserDao {
 
 	@Override
 	public CartItem AddToCart(int productid, int qty) {
-		String jpql = "SELECT NEW com.marketplace.pojos.StockDetails(sd.id, sd.stockItem, sd.pricePerUnit) FROM StockDetails sd WHERE sd.id=:Id";
+		String jpql = "SELECT NEW com.marketplace.Entity.StockDetails(sd.id, sd.stockItem, sd.pricePerUnit) FROM StockDetails sd WHERE sd.id=:Id";
 		String jpql2 = "SELECT sd.farmer1 FROM StockDetails sd JOIN sd.farmer1 f WHERE sd.id=:pid";
 		StockDetails product = mgr.createQuery(jpql, StockDetails.class)
 				.setParameter("Id", productid).getSingleResult();
@@ -107,13 +107,13 @@ public class UserDaoImpl implements IUserDao {
 	 
 	 @Override
 	 public User getUserDetails(int userId) {
-		 String jpql = "SELECT NEW com.marketplace.pojos.User(u.userId, u.firstname, u.lastname, u.email, u.phoneNo, u.address, u.password) FROM User u WHERE u.userId=:userId";
+		 String jpql = "SELECT NEW com.marketplace.Entity.User(u.userId, u.firstname, u.lastname, u.email, u.phoneNo, u.address, u.password) FROM User u WHERE u.userId=:userId";
 			return mgr.createQuery(jpql, User.class).setParameter("userId", userId).getSingleResult();
 		}
 	 
 	 @Override
 		public List<OrderDetails> getOrder(int userId) {
-			 String jpql = "SELECT NEW com.marketplace.pojos.OrderDetails(o.id, o.orderItem, o.quantity, o.amount, o.orders) FROM OrderDetails o "
+			 String jpql = "SELECT NEW com.marketplace.Entity.OrderDetails(o.id, o.orderItem, o.quantity, o.amount, o.orders) FROM OrderDetails o "
 			 		+ "JOIN o.orders ord JOIN ord.user u WHERE u.userId =:userid";
 			 return mgr.createQuery(jpql, OrderDetails.class).setParameter("userid", userId).getResultList();
 		}

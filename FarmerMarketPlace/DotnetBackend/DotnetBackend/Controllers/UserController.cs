@@ -38,7 +38,7 @@ public class UserController : ControllerBase
         _myCart = new Cart();
         _user = new User();
     }
-    
+
     [HttpPost("register")]
     public ActionResult<string> RegisterNewUser([FromBody] UserDTO user)
     {
@@ -50,7 +50,7 @@ public class UserController : ControllerBase
         //_mailService.SendSimpleEmailAsync(user.Email, body, subject);
         return Created("Registration Successful..!!", destinationObject);
     }
-    
+
     [HttpPost("login")]
     public ActionResult<User> LoginUser([FromBody] Authentication userID)
     {

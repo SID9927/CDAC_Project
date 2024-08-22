@@ -6,32 +6,6 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Remove="Controllers\FarmerContoller.txt" />
-    <None Remove="Controllers\UserController.txt" />
-    <None Remove="DAO\FarmersDaoImpl.txt" />
-    <None Remove="DAO\IFarmersDao.txt" />
-    <None Remove="DAO\IUserDao.txt" />
-    <None Remove="DAO\UserDaoImpl.txt" />
-    <None Remove="Services\FarmersServiceImpl.txt" />
-    <None Remove="Services\IFarmersService.txt" />
-    <None Remove="Services\IUserService.txt" />
-    <None Remove="Services\UserServiceImpl.txt" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Include="Controllers\FarmerContoller.txt" />
-    <Compile Include="Controllers\UserController.txt" />
-    <Compile Include="DAO\FarmersDaoImpl.txt" />
-    <Compile Include="DAO\IFarmersDao.txt" />
-    <Compile Include="DAO\IUserDao.txt" />
-    <Compile Include="DAO\UserDaoImpl.txt" />
-    <Compile Include="Services\FarmersServiceImpl.txt" />
-    <Compile Include="Services\IFarmersService.txt" />
-    <Compile Include="Services\IUserService.txt" />
-    <Compile Include="Services\UserServiceImpl.txt" />
-  </ItemGroup>
-
 	<ItemGroup>
 		<PackageReference Include="AutoMapper" Version="13.0.1" />
 		<PackageReference Include="itext7" Version="8.0.5" />
