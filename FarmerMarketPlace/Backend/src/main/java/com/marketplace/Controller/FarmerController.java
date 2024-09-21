@@ -1,3 +1,7 @@
+/**
+ * The FarmerController class provides REST API endpoints for managing farmer-related data in the marketplace application.
+ * It handles requests related to fetching farmer lists, farmer details, product details, and uploading/downloading product images.
+ */
 package com.marketplace.Controller;
 
 import java.io.IOException;

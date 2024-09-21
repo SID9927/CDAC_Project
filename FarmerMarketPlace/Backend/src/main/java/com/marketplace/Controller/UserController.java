@@ -1,3 +1,11 @@
+/**
+ * The UserController class is a Spring REST controller that handles user-related operations for the Farmer Market Place application.
+ * It provides endpoints for user registration, login, retrieving user details, updating user information, removing categories,
+ * adding products to the cart, checking out the cart, removing items from the cart, placing orders, and retrieving order history.
+ *
+ * The controller uses the IUserService and PdfExportService interfaces to interact with the application's services, and the
+ * EmailSenderService to send email notifications to users.
+ */
 package com.marketplace.Controller;
 
 import java.io.IOException;
