@@ -10,16 +10,16 @@ namespace DotnetBackend.Dao
 {
     public class FarmersDaoImpl : IFarmersDao
     {
-        private readonly IDbContextFactory _dbContextFactory;
+        private readonly FarmersmarketContext _dbContext;
 
-        public FarmersDaoImpl(IDbContextFactory dbContextFactory)
+        public FarmersDaoImpl(FarmersmarketContext dbContext)
         {
-            _dbContextFactory = dbContextFactory;
+            _dbContext = dbContext;
         }
 
         public List<Farmer> GetAllFarmers()
         {
-            return _dbContextFactory.CreateDbContext().Farmers
+            return _dbContext.Farmers
                 .Select(f => new Farmer
                 {
                     FarmerId = f.FarmerId,
@@ -34,7 +34,7 @@ namespace DotnetBackend.Dao
 
         public List<StockDetail> GetFarmerStock(int farmerId)
         {
-            return _dbContextFactory.CreateDbContext().StockDetail
+            return _dbContext.StockDetail
                 .Where(sd => sd.FarmerId == farmerId)
                 .Select(sd => new StockDetail
                 {
@@ -47,7 +47,7 @@ namespace DotnetBackend.Dao
 
         public StockDetail GetProductDetails(int farmerId, int productId)
         {
-            return _dbContextFactory.CreateDbContext().StockDetail
+            return _dbContext.StockDetail
                 .Where(sd => sd.FarmerId == farmerId && sd.ProductId == productId)
                 .Select(sd => new StockDetail
                 {
@@ -62,7 +62,7 @@ namespace DotnetBackend.Dao
 
         public Farmer GetFarmerDetails(int id)
         {
-            return _dbContextFactory.CreateDbContext().Farmers
+            return _dbContext.Farmers
                 .Where(f => f.FarmerId == id)
                 .Select(f => new Farmer
                 {
@@ -78,13 +78,8 @@ namespace DotnetBackend.Dao
 
         public List<StockDetail> GetAllProduct()
         {
-            using (var dbContext = _dbContextFactory.CreateDbContext())
-            {
-                return dbContext.StockDetail
-                   
-                    .ToList();
-            }
+            return _dbContext.StockDetail
+                .ToList();
         }
-
     }
 }

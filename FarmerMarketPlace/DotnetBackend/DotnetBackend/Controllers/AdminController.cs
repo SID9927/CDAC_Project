@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using DotnetBackend.Models;
+using DotnetBackend.Data;
 using DotnetBackend.Services;
 using System;
 using System.Collections.Generic;
@@ -12,21 +13,30 @@ using DotnetBackend.DTO;
 
 namespace DotnetBackend.Controllers
 {
+    /// <summary>
+    /// Controller responsible for handling administrative operations in the Farmers Market application.
+    /// </summary>
     [ApiController]
     [Route("admin")]
     [EnableCors("AllowMultipleOrigins")]
     public class AdminController : ControllerBase
     {
         private readonly IAdminService _adminService;
+        private readonly FarmersmarketContext _dbContext;
         private readonly IMapper _mapper;
 
-        public AdminController(IAdminService adminService,IMapper mapper)
+        public AdminController(IAdminService adminService, FarmersmarketContext dbContext, IMapper mapper)
         {
             _adminService = adminService;
+            _dbContext = dbContext;
             _mapper = mapper;
-            
         }
 
+        /// <summary>
+        /// Adds a new farmer to the system.
+        /// </summary>
+        /// <param name="farmer">The farmer data transfer object.</param>
+        /// <returns>The newly added farmer.</returns>
         [HttpPost("newfarmer")]
         public ActionResult<Farmer> AddNewFarmer([FromBody] FarmerDTO farmer)
         {
@@ -35,6 +45,12 @@ namespace DotnetBackend.Controllers
             return Ok(farmer);
         }
 
+        /// <summary>
+        /// Adds a new product for a specific farmer.
+        /// </summary>
+        /// <param name="farmerid">The ID of the farmer.</param>
+        /// <param name="product">The product data transfer object.</param>
+        /// <returns>A success message.</returns>
         [HttpPost("newproduct/{farmerid}")]
         public ActionResult<string> AddNewProduct(int farmerid, [FromBody] StockDetailDTO product)
         {
@@ -52,23 +68,34 @@ namespace DotnetBackend.Controllers
 
                 destinationObject.CategoryId = product.CategoryId;
             }
-            
+
 
             _adminService.AddProduct(farmerid, destinationObject);
             return Ok("Product Added Successfully");
         }
 
+        /// <summary>
+        /// Uploads an image for a specific product.
+        /// </summary>
+        /// <param name="productid">The ID of the product.</param>
+        /// <param name="imgFile">The image file to upload.</param>
+        /// <returns>A success message.</returns>
         [HttpPost("{productid}/image")]
         public async Task<ActionResult<string>> UploadImage(int productid, IFormFile imgFile)
         {
-            
-                
-                _adminService.SaveImage(productid,imgFile);
-            
+
+
+            _adminService.SaveImage(productid, imgFile);
+
 
             return Ok("Image Uploaded Successfully");
         }
 
+        /// <summary>
+        /// Retrieves the image for a specific product.
+        /// </summary>
+        /// <param name="productid">The ID of the product.</param>
+        /// <returns>The product image as a byte array.</returns>
         [HttpGet("{productid}")]
         public ActionResult<byte[]> DownloadImage(int productid)
         {
@@ -83,6 +110,11 @@ namespace DotnetBackend.Controllers
             }
         }
 
+        /// <summary>
+        /// Deletes a farmer from the system.
+        /// </summary>
+        /// <param name="farmerid">The ID of the farmer to delete.</param>
+        /// <returns>A success message.</returns>
         [HttpGet("removefarmer/{farmerid}")]
         public ActionResult<string> DeleteFarmer(int farmerid)
         {
@@ -90,6 +122,11 @@ namespace DotnetBackend.Controllers
             return Ok("Farmer Removed Successfully");
         }
 
+        /// <summary>
+        /// Deletes a product from the system.
+        /// </summary>
+        /// <param name="productid">The ID of the product to delete.</param>
+        /// <returns>A success message.</returns>
         [HttpGet("removeproduct/{productid}")]
         public ActionResult<string> DeleteProduct(int productid)
         {
@@ -97,11 +134,18 @@ namespace DotnetBackend.Controllers
             return Ok("Product Removed Successfully");
         }
 
+        /// <summary>
+        /// Updates an existing product.
+        /// </summary>
+        /// <param name="productid">The ID of the product to update.</param>
+        /// <param name="product">The updated product details.</param>
+        /// <returns>A success message.</returns>
         [HttpPut("updateproduct/{productid}")]
         public ActionResult<string> UpdateProduct(int productid, [FromForm] StockDetail product)
         {
             try
             {
+                product.ProductId = productid;
                 _adminService.UpdateProduct(product);
                 return Ok("Product Updated");
             }
@@ -111,8 +155,11 @@ namespace DotnetBackend.Controllers
             }
         }
 
-        // Implement other methods similarly...
 
+        /// <summary>
+        /// Retrieves the list of all categories.
+        /// </summary>
+        /// <returns>A list of all categories.</returns>
         [HttpGet("categorylist")]
         public ActionResult<IEnumerable<Category>> GetCategoryList()
         {
@@ -120,6 +167,10 @@ namespace DotnetBackend.Controllers
             return Ok(categories);
         }
 
+        /// <summary>
+        /// Retrieves all orders in the system.
+        /// </summary>
+        /// <returns>A list of all orders.</returns>
         [HttpGet("allorders")]
         public ActionResult<IEnumerable<OrderDetail>> GetAllOrders()
         {
@@ -127,21 +178,31 @@ namespace DotnetBackend.Controllers
             return Ok(orders);
         }
 
+        /// <summary>
+        /// Retrieves all users in the system.
+        /// </summary>
+        /// <returns>A list of all users.</returns>
         [HttpGet("allusers")]
         public ActionResult<IEnumerable<UserDTO>> GetAllUsers()
         {
-       
+
             List<User> users = _adminService.GetAllUser();
 
-            var destinationObject = _mapper.Map<List <UserDTO> >(users);
+            var destinationObject = _mapper.Map<List<UserDTO>>(users);
 
             return Ok(users);
         }
 
+        /// <summary>
+        /// Updates an existing farmer's details.
+        /// </summary>
+        /// <param name="farmerid">The ID of the farmer to update.</param>
+        /// <param name="f">The updated farmer details.</param>
+        /// <returns>The updated farmer object.</returns>
         [HttpPut("updatefarmer/{farmerid}")]
         public IActionResult UpdateFarmer(int farmerid, [FromBody] FarmerDTO f)
         {
-          
+
 
             Farmer farmer = _adminService.GetFarmerDetails(farmerid);
             //fetch existing data
@@ -161,7 +222,11 @@ namespace DotnetBackend.Controllers
             return NotFound();
         }
 
-
+        // <summary>
+        /// Adds a new category to the system.
+        /// </summary>
+        /// <param name="categoryName">The name of the new category.</param>
+        /// <returns>A success message.</returns>
         [HttpGet("addcategory/{categoryName}")]
         public IActionResult AddCategory(string categoryName)
         {
@@ -184,6 +249,11 @@ namespace DotnetBackend.Controllers
             }
         }
 
+        /// <summary>
+        /// Retrieves a category by its ID.
+        /// </summary>
+        /// <param name="categoryId">The ID of the category to retrieve.</param>
+        /// <returns>The requested category.</returns>
         [HttpGet("getcategory/{categoryId}")]
         public IActionResult GetCategoryById(int categoryId)
         {
@@ -194,10 +264,10 @@ namespace DotnetBackend.Controllers
                 // Validate the incoming data (categoryModel) as needed
 
                 // Call the service method to add the category
-                
+
 
                 // Return a successful response
-                return Ok(_adminService.GetCategoryById(categoryId) );
+                return Ok(_adminService.GetCategoryById(categoryId));
             }
             catch (Exception ex)
             {
@@ -206,7 +276,5 @@ namespace DotnetBackend.Controllers
             }
         }
 
-
-        // Implement other methods similarly...
     }
 }

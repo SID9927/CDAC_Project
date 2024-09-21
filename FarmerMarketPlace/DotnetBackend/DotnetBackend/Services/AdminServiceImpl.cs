@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using DotnetBackend.Dao;
+using DotnetBackend.Data;
 using DotnetBackend.ExceptionHandler;
 using DotnetBackend.Models;
 
@@ -17,14 +18,12 @@ namespace DotnetBackend.Services
     public class AdminServiceImpl : IAdminService
     {
         private readonly IAdminDao _adminDao;
-        private readonly IStockDetailsRepository _stockRepository;
+        private readonly FarmersmarketContext _dbContext;
 
-
-        public AdminServiceImpl(IAdminDao adminDao, IStockDetailsRepository stockRepository)
+        public AdminServiceImpl(IAdminDao adminDao, FarmersmarketContext dbContext)
         {
             _adminDao = adminDao;
-            _stockRepository = stockRepository;
-           
+            _dbContext = dbContext;
         }
 
         public bool AddFarmer(Farmer farmer)
@@ -136,7 +135,7 @@ namespace DotnetBackend.Services
 
         public async Task<byte[]> RestoreImageAgain(string productName)
         {
-            var product = await _stockRepository.GetByStockItemAsync(productName);
+            var product = await _dbContext.StockDetail.FirstOrDefaultAsync(s => s.StockItem == productName);
             if (product == null || string.IsNullOrEmpty(product.ProductImage))
             {
                 throw new ResourceNotFoundException($"Image not yet assigned for product with name {productName}.");
@@ -147,8 +146,7 @@ namespace DotnetBackend.Services
 
         public Category GetCategoryById(int id)
         {
-           return _adminDao.GetCategoryById(id);
+            return _adminDao.GetCategoryById(id);
+        }
     }
-    }
-   
 }

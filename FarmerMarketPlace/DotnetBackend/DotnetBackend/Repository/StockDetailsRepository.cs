@@ -5,19 +5,18 @@ using Microsoft.EntityFrameworkCore;
 
 namespace FarmFresh.Data
 {
-  
     public class StockDetailsRepository : IStockDetailsRepository
     {
-        private readonly IDbContextFactory _dbContextFactory;
+        private readonly FarmersmarketContext _dbContext;
 
-        public StockDetailsRepository(IDbContextFactory dbContextFactory)
+        public StockDetailsRepository(FarmersmarketContext dbContext)
         {
-            _dbContextFactory = dbContextFactory;
+            _dbContext = dbContext;
         }
+
         public async Task<StockDetail> GetByStockItemAsync(string name)
         {
-            return await _dbContextFactory.CreateDbContext().StockDetail.FirstOrDefaultAsync(sd => sd.StockItem == name);
+            return await _dbContext.StockDetail.FirstOrDefaultAsync(sd => sd.StockItem == name);
         }
     }
-
 }

@@ -13,15 +13,15 @@ var builder = WebApplication.CreateBuilder(args);
 
 
 
-builder.Services.AddSingleton<IDbContextFactory, DbContextFactory>();
+// builder.Services.AddSingleton<IDbContextFactory, DbContextFactory>();
 
-builder.Services.AddSingleton<IAdminDao, AdminDaoImpl>();
-builder.Services.AddSingleton<IStockDetailsRepository, StockDetailsRepository>();
+builder.Services.AddScoped<IAdminDao, AdminDaoImpl>();
+builder.Services.AddScoped<IStockDetailsRepository, StockDetailsRepository>();
 builder.Services.AddScoped<IUserDao, UserDaoImpl>();
-builder.Services.AddSingleton<IFarmersDao, FarmersDaoImpl>();
+builder.Services.AddScoped<IFarmersDao, FarmersDaoImpl>();
 
-builder.Services.AddSingleton<IFarmersService, FarmersServiceImpl>();
-builder.Services.AddSingleton<IAdminService, AdminServiceImpl>();
+builder.Services.AddScoped<IFarmersService, FarmersServiceImpl>();
+builder.Services.AddScoped<IAdminService, AdminServiceImpl>();
 builder.Services.AddScoped<IUserService, UserServiceImpl>();
 
 builder.Services.AddCors(options =>

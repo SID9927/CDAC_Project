@@ -1,45 +1,43 @@
 ﻿using DotnetBackend.Models;
+using DotnetBackend.Data;
 
 using System.Collections.Generic;
-using DotnetBackend.Models;
 using DotnetBackend.Dao; // Replace with the actual namespace of your models
 
 namespace DotnetBackend.Services;
 public class FarmersServiceImpl : IFarmersService
 {
-    private readonly IFarmersDao _farmersRepository;
+    private readonly IFarmersDao _farmersDao;
+    private readonly FarmersmarketContext _dbContext;
 
-   
-
-    public FarmersServiceImpl(IFarmersDao farmersRepository)
+    public FarmersServiceImpl(IFarmersDao farmersDao, FarmersmarketContext dbContext)
     {
-        _farmersRepository = farmersRepository;
-       
-        
+        _farmersDao = farmersDao;
+        _dbContext = dbContext;
     }
 
     public List<Farmer> GetFarmersList()
     {
-        return _farmersRepository.GetAllFarmers();
+        return _farmersDao.GetAllFarmers();
     }
 
     public List<StockDetail> GetFarmerStock(int farmerId)
     {
-        return _farmersRepository.GetFarmerStock(farmerId);
+        return _farmersDao.GetFarmerStock(farmerId);
     }
 
     public StockDetail GetProductDetails(int farmerId, int productId)
     {
-        return _farmersRepository.GetProductDetails(farmerId, productId);
+        return _farmersDao.GetProductDetails(farmerId, productId);
     }
 
     public Farmer GetFarmerDetails(int id)
     {
-        return _farmersRepository.GetFarmerDetails(id);
+        return _farmersDao.GetFarmerDetails(id);
     }
 
     public List<StockDetail> GetAllProduct()
     {
-        return _farmersRepository.GetAllProduct();
+        return _farmersDao.GetAllProduct();
     }
 }

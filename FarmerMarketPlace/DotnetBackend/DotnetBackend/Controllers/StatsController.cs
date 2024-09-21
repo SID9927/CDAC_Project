@@ -1,4 +1,10 @@
-﻿using DotnetBackend.Data;
+﻿/// <summary>
+/// Provides endpoints to retrieve various counts from the Farmers Market database, such as the number of farmers, categories, products, orders, and users.
+/// </summary>
+/// <remarks>
+/// This controller is used to expose administrative functionality for retrieving statistical information about the Farmers Market application.
+/// </remarks>
+using DotnetBackend.Data;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;

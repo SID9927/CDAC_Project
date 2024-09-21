@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\DotnetBackend.csproj": {}
+    "C:\\Users\\sid74\\Desktop\\Final_Project\\CDAC_Project\\FarmerMarketPlace\\DotnetBackend\\DotnetBackend\\DotnetBackend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\DotnetBackend.csproj": {
+    "C:\\Users\\sid74\\Desktop\\Final_Project\\CDAC_Project\\FarmerMarketPlace\\DotnetBackend\\DotnetBackend\\DotnetBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\DotnetBackend.csproj",
+        "projectUniqueName": "C:\\Users\\sid74\\Desktop\\Final_Project\\CDAC_Project\\FarmerMarketPlace\\DotnetBackend\\DotnetBackend\\DotnetBackend.csproj",
         "projectName": "DotnetBackend",
-        "projectPath": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\DotnetBackend.csproj",
+        "projectPath": "C:\\Users\\sid74\\Desktop\\Final_Project\\CDAC_Project\\FarmerMarketPlace\\DotnetBackend\\DotnetBackend\\DotnetBackend.csproj",
         "packagesPath": "C:\\Users\\sid74\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sid74\\Desktop\\FMP\\FMP\\FMP Dotnet\\DotnetBackend\\DotnetBackend\\obj\\",
+        "outputPath": "C:\\Users\\sid74\\Desktop\\Final_Project\\CDAC_Project\\FarmerMarketPlace\\DotnetBackend\\DotnetBackend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sid74\\AppData\\Roaming\\NuGet\\NuGet.Config",

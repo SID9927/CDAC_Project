@@ -13,100 +13,78 @@ namespace DotnetBackend.Dao
 {
     public class AdminDaoImpl : IAdminDao
     {
-        //private readonly FarmFreshContext _dbContext;
+        private readonly FarmersmarketContext _dbContext;
 
-        //public AdminDaoImpl(FarmFreshContext dbContext)
-        //{
-        //    _dbContext = dbContext;
-        //}
-
-        private readonly IDbContextFactory _dbContextFactory;
-
-        public AdminDaoImpl(IDbContextFactory dbContextFactory)
+        public AdminDaoImpl(FarmersmarketContext dbContext)
         {
-            _dbContextFactory = dbContextFactory;
+            _dbContext = dbContext;
         }
 
         public bool AddFarmer(Farmer farmer)
         {
-            using (var dbContext = _dbContextFactory.CreateDbContext())
+            foreach (StockDetail product in farmer.StockDetails)
             {
-                foreach (StockDetail product in farmer.StockDetails)
-                {
-                    product.Farmer = farmer;
-                    dbContext.StockDetail.Add(product);
-                }
-
-                dbContext.Farmers.Add(farmer);
-                int count = dbContext.SaveChanges();
-                return count > 0;
+                product.Farmer = farmer;
+                _dbContext.StockDetail.Add(product);
             }
+
+            _dbContext.Farmers.Add(farmer);
+            int count = _dbContext.SaveChanges();
+            return count > 0;
         }
-
-
 
         public bool AddProduct(int farmerId, StockDetail product)
         {
-            using (var dbContext = _dbContextFactory.CreateDbContext())
+            // Retrieve the farmer with the specified ID and include their stock details
+            Farmer farmer = _dbContext.Farmers.Include(f => f.StockDetails).FirstOrDefault(f => f.FarmerId == farmerId);
+
+            if (farmer != null)
             {
-                // Retrieve the farmer with the specified ID and include their stock details
-                Farmer farmer = dbContext.Farmers.Include(f => f.StockDetails).FirstOrDefault(f => f.FarmerId == farmerId);
+                // Set the association between the product and the farmer
+                product.Farmer = farmer;
 
+                // Add the product to the stock details
+                _dbContext.StockDetail.Add(product);
 
+                // Save changes to the database
+                _dbContext.SaveChanges();
 
-                if (farmer != null)
-                {
-                    // Set the association between the product and the farmer
-                    product.Farmer = farmer;
-
-                    // Add the product to the stock details
-                    dbContext.StockDetail.Add(product);
-
-                    // Save changes to the database
-                    dbContext.SaveChanges();
-
-                    return true;
-                }
-
-                return false;
+                return true;
             }
-        }
 
+            return false;
+        }
 
         public bool RemoveFarmer(int farmerId)
         {
-            using (var dbContext = _dbContextFactory.CreateDbContext())
+            Farmer farmerToRemove = _dbContext.Farmers
+                .Include(f => f.StockDetails)
+                .FirstOrDefault(f => f.FarmerId == farmerId);
+
+            if (farmerToRemove != null)
             {
-                Farmer farmerToRemove = dbContext.Farmers
-                    .Include(f => f.StockDetails)
-                    .FirstOrDefault(f => f.FarmerId == farmerId);
+                // Remove associated stock details
+                _dbContext.StockDetail.RemoveRange(farmerToRemove.StockDetails);
 
-                if (farmerToRemove != null)
-                {
-                    // Remove associated stock details
-                    dbContext.StockDetail.RemoveRange(farmerToRemove.StockDetails);
+                // Remove the farmer
+                _dbContext.Farmers.Remove(farmerToRemove);
 
-                    // Remove the farmer
-                    dbContext.Farmers.Remove(farmerToRemove);
+                // Save changes
+                _dbContext.SaveChanges();
 
-                    // Save changes
-                    dbContext.SaveChanges();
-
-                    return true;
-                }
-
-                return false;
+                return true;
             }
-        }
 
+            return false;
+        }
 
         public bool RemoveProduct(int productId)
         {
-            StockDetail product = _dbContextFactory.CreateDbContext().StockDetail.Find(productId);
+            StockDetail product = _dbContext.StockDetail.Find(productId);
             if (product != null)
             {
-                _dbContextFactory.CreateDbContext().StockDetail.Remove(product);
-                _dbContextFactory.CreateDbContext().SaveChanges();
+                _dbContext.StockDetail.Remove(product);
+                _dbContext.SaveChanges();
                 return true;
             }
             return false;
@@ -114,77 +92,97 @@ namespace DotnetBackend.Dao
 
         public bool UpdateFarmer(Farmer farmer)
         {
-            using (var dbContext = _dbContextFactory.CreateDbContext())
-            {
-                // Ensure the entity is being tracked
-                dbContext.Attach(farmer);
+            // Ensure the entity is being tracked
+            _dbContext.Attach(farmer);
 
-                // Set the entity state to Modified
-                dbContext.Entry(farmer).State = EntityState.Modified;
+            // Set the entity state to Modified
+            _dbContext.Entry(farmer).State = EntityState.Modified;
 
-                // Save changes
-                int count = dbContext.SaveChanges();
+            // Save changes
+            int count = _dbContext.SaveChanges();
 
-                return count > 0;
-            }
+            return count > 0;
         }
-
 
         public bool UpdateProduct(StockDetail product)
         {
-            _dbContextFactory.CreateDbContext().Update(product);
-            _dbContextFactory.CreateDbContext().SaveChanges();
-            return true;
+            try
+            {
+                var existingProduct = _dbContext.StockDetail.Find(product.ProductId);
+                if (existingProduct != null)
+                {
+                    // Update only the properties that are not null in the incoming product
+                    if (product.PricePerUnit.HasValue)
+                        existingProduct.PricePerUnit = product.PricePerUnit;
+                    if (product.Quantity != 0)
+                        existingProduct.Quantity = product.Quantity;
+                    if (!string.IsNullOrEmpty(product.StockItem))
+                        existingProduct.StockItem = product.StockItem;
+                    if (product.CategoryId.HasValue)
+                        existingProduct.CategoryId = product.CategoryId;
+                    if (product.FarmerId.HasValue)
+                        existingProduct.FarmerId = product.FarmerId;
+                    if (!string.IsNullOrEmpty(product.ProductImage))
+                        existingProduct.ProductImage = product.ProductImage;
+
+                    _dbContext.Entry(existingProduct).State = EntityState.Modified;
+                    int count = _dbContext.SaveChanges();
+                    Console.WriteLine($"Updated {count} records");
+                    return count > 0;
+                }
+                return false;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error updating product: {ex.Message}");
+                return false;
+            }
         }
 
         public StockDetail GetProductDetails(int productId)
         {
-            return _dbContextFactory.CreateDbContext().StockDetail.Find(productId);
+            return _dbContext.StockDetail.Find(productId);
         }
 
         public Farmer GetFarmerDetails(int farmerId)
         {
-            return _dbContextFactory.CreateDbContext().Farmers.Find(farmerId);
+            return _dbContext.Farmers.Find(farmerId);
         }
 
         public Category GetCategory(int catId)
         {
-            return _dbContextFactory.CreateDbContext().Categories.Find(catId);
+            return _dbContext.Categories.Find(catId);
         }
 
         public bool SetCategory(string category)
         {
-            using (var dbContext = _dbContextFactory.CreateDbContext())
+            // Check if the category already exists
+            if (_dbContext.Categories.Any(c => c.CategoryName == category))
             {
-                // Check if the category already exists
-                if (dbContext.Categories.Any(c => c.CategoryName == category))
-                {
-                    // Category already exists, handle accordingly (throw exception, return false, etc.)
-                    return false;
-                }
-
-                // Create a new category entity
-                Category newCategory = new Category { CategoryName = category };
-
-                // Add the new category to the DbContext
-                dbContext.Categories.Add(newCategory);
-
-                // Save changes to the database
-                dbContext.SaveChanges();
-
-                // Return true to indicate success
-                return true;
+                // Category already exists, handle accordingly (throw exception, return false, etc.)
+                return false;
             }
-        }
 
+            // Create a new category entity
+            Category newCategory = new Category { CategoryName = category };
+
+            // Add the new category to the DbContext
+            _dbContext.Categories.Add(newCategory);
+
+            // Save changes to the database
+            _dbContext.SaveChanges();
+
+            // Return true to indicate success
+            return true;
+        }
 
         public bool RemoveCategory(int catId)
         {
-            Category category = _dbContextFactory.CreateDbContext().Categories.Find(catId);
+            Category category = _dbContext.Categories.Find(catId);
             if (category != null)
             {
-                _dbContextFactory.CreateDbContext().Categories.Remove(category);
-                _dbContextFactory.CreateDbContext().SaveChanges();
+                _dbContext.Categories.Remove(category);
+                _dbContext.SaveChanges();
                 return true;
             }
             return false;
@@ -192,7 +190,7 @@ namespace DotnetBackend.Dao
 
         public string SaveImage(int productId, IFormFile imgFile)
         {
-            StockDetail product = _dbContextFactory.CreateDbContext().StockDetail.Find(productId);
+            StockDetail product = _dbContext.StockDetail.Find(productId);
             if (product != null)
             {
                 string path = $"wwwroot/images/{productId}_{Path.GetRandomFileName()}";
@@ -201,7 +199,7 @@ namespace DotnetBackend.Dao
                 {
                     imgFile.CopyTo(fileStream);
                 }
-                _dbContextFactory.CreateDbContext().SaveChanges();
+                _dbContext.SaveChanges();
                 return "File copied";
             }
             return "Product not found";
@@ -209,7 +207,7 @@ namespace DotnetBackend.Dao
 
         public byte[] RestoreImage(int productId)
         {
-            StockDetail product = _dbContextFactory.CreateDbContext().StockDetail.Find(productId);
+            StockDetail product = _dbContext.StockDetail.Find(productId);
             if (product != null)
             {
                 string path = product.ProductImage;
@@ -221,33 +219,30 @@ namespace DotnetBackend.Dao
 
         public List<Category> GetAllCategory()
         {
-            return _dbContextFactory.CreateDbContext().Categories.ToList();
+            return _dbContext.Categories.ToList();
         }
 
         public List<OrderDetail> GetAllOrders()
         {
-            return _dbContextFactory.CreateDbContext().OrderDetails.ToList();
+            return _dbContext.OrderDetails.ToList();
         }
 
         public List<User> GetAllUser()
         {
-            return _dbContextFactory.CreateDbContext().Users.ToList();
+            return _dbContext.Users.ToList();
         }
 
         public bool UpdateUser(User user)
         {
-            _dbContextFactory.CreateDbContext().Update(user);
-            _dbContextFactory.CreateDbContext().SaveChanges();
+            _dbContext.Update(user);
+            _dbContext.SaveChanges();
             return true;
         }
 
         public Category GetCategoryById(int id)
         {
-            using (var dbContext = _dbContextFactory.CreateDbContext())
-            {
-                var category = dbContext.Categories.FirstOrDefault(yes => yes.CategoryId== id);
-                return category;
-            }
+            var category = _dbContext.Categories.FirstOrDefault(yes => yes.CategoryId == id);
+            return category;
         }
     }
 }
