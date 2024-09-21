@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import adminService from "../Services/admin.services";
+import userService from "../Services/user.services";
 import { useNavigate } from "react-router-dom";
 import toast, { Toaster } from "react-hot-toast";
 import logo from "../imagess/logo.png";
@@ -21,7 +21,7 @@ function LoginForm() {
 
     const user = { email, password };
     console.log(user);
-    adminService
+    userService
       .login(user)
       .then((respose) => {
         console.log("User Login Credentials Send", respose.data);
@@ -39,10 +39,10 @@ function LoginForm() {
         localStorage.setItem("user-token", JSON.stringify(respose.data));
 
         var data = JSON.parse(localStorage.getItem("user-token"));
-        if (data?.isadmin === true || data?.isAdmin === 1) {
+        if (data?.isAdmin === true || data?.isAdmin === 1) {
           console.log("admin");
           navigate("/admin");
-        } else if (data?.isadmin === false || data?.isAdmin === 0) {
+        } else if (data?.isAdmin === false || data?.isAdmin === 0) {
           console.log("user");
           navigate("/user");
         }

@@ -59,20 +59,20 @@ function OrderDetails() {
                   <td>{o.orderItem}</td>
                   <td>{o.quantity}</td>
                   <td>{o.amount}</td>
-                  <td>{o.orders.deliveryDate}</td>
+                  <td>{o.orders?.deliveryDate || 'N/A'}</td>
                   <td>
                     <span
                       className={`badge ${
-                        o.orders.paymentStatus ? "bg-success" : "bg-warning"
+                        o.orders?.paymentStatus ? "bg-success" : "bg-warning"
                       }`}
                     >
-                      {o.orders.paymentStatus ? "Done" : "Pending"}
+                      {o.orders?.paymentStatus ? "Done" : "Pending"}
                     </span>
                   </td>
-                  <td>{o.orders.placeOrderDate}</td>
+                  <td>{o.orders?.placeOrderDate || 'N/A'}</td>
                   <td className="text-center">
                     <img
-                      src={`http://localhost:8080/FarmersMarketplace/admin/image/${o.orderItem}`}
+                      src={`http://localhost:9090/FarmersMarketplace/farmer/${o.orderItem}/image`}
                       alt="productImage"
                       width={75}
                       className="img-thumbnail"

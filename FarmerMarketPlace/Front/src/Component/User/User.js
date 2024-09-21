@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import farmerServices from "../../Services/farmer.services";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
@@ -6,180 +6,73 @@ import Row from "react-bootstrap/Row";
 import AddToCart from "./AddToCart";
 import UserNavBar from "./UserNavBar";
 import Footer from "../Footer";
+import SortProducts from "./SortProducts";
 
 function User() {
-  const [products, setProducts] = useState([]);
-  const [isReRender, setIsReRender] = useState(true);
+  const [allProducts, setAllProducts] = useState([]);
+  const [filteredProducts, setFilteredProducts] = useState([]);
 
-  const init = () => {
+  useEffect(() => {
     farmerServices
       .getProductList()
       .then((response) => {
-        console.log("Printing Products data", response.data);
-        setProducts(response.data);
+        setAllProducts(response.data);
+        setFilteredProducts(response.data);
       })
       .catch((error) => {
         console.log("Something went wrong", error);
       });
-  };
-
-  useEffect(() => {
-    init();
   }, []);
 
-  const priceAscending = () => {
-    var data = products.sort((a, b) => a.pricePerUnit - b.pricePerUnit);
-    setProducts(data);
-    setIsReRender(false);
-    setTimeout(() => {
-      setIsReRender(true);
-    }, 1);
-  };
+  const applyFilters = (sortType, priceRange, selectedCategory) => {
+    let result = [...allProducts];
 
-  const quantityAscending = () => {
-    var data = products.sort((a, b) => a.quantity - b.quantity);
-    setProducts(data);
-    setIsReRender(false);
-    setTimeout(() => {
-      setIsReRender(true);
-    }, 1);
-  };
+    // Apply price range filter
+    result = result.filter(p => p.pricePerUnit >= priceRange[0] && p.pricePerUnit <= priceRange[1]);
 
-  const quantityDescending = () => {
-    var data = products.sort((a, b) => b.quantity - a.quantity);
-    setProducts(data);
-    setIsReRender(false);
-    setTimeout(() => {
-      setIsReRender(true);
-    }, 1);
-  };
+    // Apply category filter
+    if (selectedCategory) {
+      result = result.filter(p => p.category.categoryName === selectedCategory);
+    }
 
-  const priceDescending = () => {
-    var data = products.sort((a, b) => b.pricePerUnit - a.pricePerUnit);
-    setProducts(data);
-    setIsReRender(false);
-    setTimeout(() => {
-      setIsReRender(true);
-    }, 1);
-  };
+    // Apply sorting
+    switch (sortType) {
+      case 'priceLowToHigh':
+        result.sort((a, b) => a.pricePerUnit - b.pricePerUnit);
+        break;
+      case 'priceHighToLow':
+        result.sort((a, b) => b.pricePerUnit - a.pricePerUnit);
+        break;
+      case 'inStock':
+        result = result.filter(p => p.quantity > 0);
+        break;
+      case 'outOfStock':
+        result = result.filter(p => p.quantity <= 0);
+        break;
+      default:
+        break;
+    }
 
-  const nameAscending = () => {
-    var data = products.sort((a, b) => a.stockItem.localeCompare(b.stockItem));
-    setProducts(data);
-    setIsReRender(false);
-    setTimeout(() => {
-      setIsReRender(true);
-    }, 1);
+    setFilteredProducts(result);
   };
-
-  const nameDescending = () => {
-    var data = products.sort((a, b) => b.stockItem.localeCompare(a.stockItem));
-    setProducts(data);
-    setIsReRender(false);
-    setTimeout(() => {
-      setIsReRender(true);
-    }, 1);
-  };
-
   return (
     <div>
       <UserNavBar />
-
       <div className="container my-3">
         <div className="row">
           <div className="col-xl-3">
-            <div className="card p-3 shadow-sm">
-              <h5 className="text-center mb-3">Sort Products</h5>
-              <div className="btn-group-vertical w-100">
-                <button
-                  className="btn btn-outline-secondary dropdown-toggle"
-                  type="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Sort By Descending
-                </button>
-                <ul className="dropdown-menu w-100">
-                  <li>
-                    <a
-                      className="dropdown-item"
-                      href="#"
-                      onClick={() => priceDescending()}
-                    >
-                      Price Descending
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="dropdown-item"
-                      href="#"
-                      onClick={() => quantityDescending()}
-                    >
-                      Quantity Descending
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="dropdown-item"
-                      href="#"
-                      onClick={() => nameDescending()}
-                    >
-                      Name Descending
-                    </a>
-                  </li>
-                </ul>
-
-                <button
-                  className="btn btn-outline-secondary dropdown-toggle mt-2"
-                  type="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Sort By Ascending
-                </button>
-                <ul className="dropdown-menu w-100">
-                  <li>
-                    <a
-                      className="dropdown-item"
-                      href="#"
-                      onClick={() => priceAscending()}
-                    >
-                      Price Ascending
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="dropdown-item"
-                      href="#"
-                      onClick={() => quantityAscending()}
-                    >
-                      Quantity Ascending
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="dropdown-item"
-                      href="#"
-                      onClick={() => nameAscending()}
-                    >
-                      Name Ascending
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+            <SortProducts onApplyFilters={applyFilters} />
           </div>
-
           <div className="col-xl-9 mt-3 mt-xl-0">
             <div className="container mt-2">
-              {isReRender ? (
-                <Row xs={1} sm={2} md={3} className="g-4">
-                  {products.map((p) => (
+              {filteredProducts.length > 0 ? (
+                <Row xs={1} sm={2} md={2} lg={3} xl={4} className="g-4">
+                  {filteredProducts.map((p) => (
                     <Col key={p.id}>
                       <Card className="shadow-sm">
                         <Card.Img
                           variant="top"
-                          src={`http://localhost:9090/FarmersMarketplace/admin/${p.id}`}
+                          src={`http://localhost:9090/FarmersMarketplace/farmer/${p.id}/image`}
                         />
                         <Card.Body className="text-center">
                           <Card.Title className="fw-bold">
@@ -197,14 +90,12 @@ function User() {
                     </Col>
                   ))}
                 </Row>
-              ) : (
-                <div className="text-center">No products available</div>
+              ) : (                <div className="text-center">No products available</div>
               )}
             </div>
           </div>
         </div>
       </div>
-
       <Footer />
     </div>
   );

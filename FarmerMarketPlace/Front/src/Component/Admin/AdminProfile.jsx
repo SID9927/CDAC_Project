@@ -30,12 +30,12 @@ function AdminProfile() {
       .getSpecificUserDetails(object.userId)
       .then((response) => {
         console.log(response.data);
-        setAddress(response.data.firstname);
-        setPassword(response.data.lastname);
-        setFirstname(response.data.email);
-        setLastname(response.data.password);
-        setPhoneNo(response.data.address);
-        setEmail(response.data.phoneNo);
+        setAddress(response.data.address);
+        setPassword(response.data.password);
+        setFirstname(response.data.firstname);
+        setLastname(response.data.lastname);
+        setPhoneNo(response.data.phoneNo);
+        setEmail(response.data.email);
       })
       .catch((error) => {
         console.log(error);

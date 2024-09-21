@@ -1,27 +1,12 @@
 import httpClient from "../http-common-dotnet";
-
-const login = (data) => {
- 
-  // return fetch('https://localhost:7213/user/login', {
-  //   method: 'POST',
-  //   headers: {
-  //     'Content-Type': 'application/json',
-  //   },
-  //   body: JSON.stringify(data),
-  // })
-  return httpClient.post("/user/login", data);
-};
-
-const register = (data) => {
-  return httpClient.post("/user/register", data);
-};
+import httpClient2 from "../http-common-spring";
 
 const getCategory = () => {
   return httpClient.get("/admin/categorylist");
 };
 
 const removeCategory = (categoryid) => {
-  return httpClient.get(`/admin/removecategory/${categoryid}`);
+  return httpClient2.delete(`/user/removecategory/${categoryid}`);
 };
 
 const addCategory = (categoryName) => {
@@ -33,7 +18,7 @@ const addProduct = (data, farmerId) => {
 };
 
 const addProductImage = (file, id) => {
-  return httpClient.post(`/admin/${id}/image`, file);
+  return httpClient2.post(`/farmer/${id}/image`, file);
 };
 
 const updateProduct = (id, form) => {
@@ -49,11 +34,11 @@ const getUsersList = () => {
 };
 
 const getSpecificUserDetails = (id) => {
-  return httpClient.get(`/admin/userdetails/${id}`);
+  return httpClient2.get(`/user/userdetails/${id}`);
 };
 
 const updateUser = (id, data) => {
-  return httpClient.post(`/admin/updateuser/${id}`, data);
+  return httpClient2.post(`/user/updateuser/${id}`, data);
 };
 
 const getFarmerCount = () => {
@@ -77,8 +62,6 @@ const getCategoryCount = () => {
 };
 
 export default {
-  login,
-  register,
   getCategory,
   removeCategory,
   addCategory,

@@ -5,7 +5,7 @@ function Product({ product }) {
         <div className="card shadow-sm" style={{ width: '22rem' }}>
             <div className="text-center p-3">
                 <img 
-                    src={`https://localhost:7213/admin/${product.id}`} 
+                    src={`http://localhost:9090/FarmersMarketplace/farmer/${p.id}/image`} 
                     className="card-img-top rounded" 
                     alt={product.stockItem} 
                     style={{ width: '200px', height: '200px', objectFit: 'cover' }} 

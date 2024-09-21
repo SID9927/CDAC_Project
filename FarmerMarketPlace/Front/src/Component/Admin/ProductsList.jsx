@@ -295,7 +295,7 @@ function ProductsList() {
                   <td>
                     <figure>
                       <img
-                        src={`https://localhost:7213/admin/${p.id}/image`}
+                        src={`http://localhost:9090/FarmersMarketplace/farmer/${p.id}/image`}
                         alt="productImage"
                         width={75}
                         className="img-thumbnail"

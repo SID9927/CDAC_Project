@@ -186,7 +186,7 @@ const PaymentForm = (props) => {
                                 />
                             </div>
                             <div className="text-center">
-                                <button type="submit" className="btn btn-dark btn-block">
+                                <button type="submit" className="btn btn-dark btn-block">                                   
                                     Pay INR {props.amount}
                                 </button>
                             </div>
