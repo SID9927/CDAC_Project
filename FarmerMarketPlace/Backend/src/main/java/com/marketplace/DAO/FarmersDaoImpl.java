@@ -63,6 +63,15 @@ public class FarmersDaoImpl implements IFarmersDao {
 	}
 
 	@Override
+	public byte[] restoreImage(int productId) throws IOException {
+		StockDetails s = mgr.find(StockDetails.class, productId);
+		String path = s.getImagePath();
+		if (path != null)
+			return Files.readAllBytes(Paths.get(path));
+		throw new ResourceNotFoundException("Image not yet assigned for product ID " + productId);
+	}
+
+	@Override
 	public byte[] restoreImageByOrderItem(String orderItem) throws IOException {
 		String jpql = "SELECT s FROM StockDetails s WHERE s.stockItem = :orderItem";
 		StockDetails s = mgr.createQuery(jpql, StockDetails.class)

@@ -16,5 +16,6 @@ public interface IFarmersDao {
 	List<StockDetails> getFarmerStock(int farmerid);
 	StockDetails getProductDetails(int farmerid, int productid);
 String saveImage(int productId, MultipartFile imgFile) throws IOException;
+	byte[] restoreImage(int productId) throws IOException;
 	byte[] restoreImageByOrderItem(String orderItem) throws IOException;
 }

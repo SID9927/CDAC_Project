@@ -67,10 +67,17 @@ public class FarmerController {
 		return ResponseEntity.ok().body(msg);
 	}
 
-	@GetMapping(value = "/{orderItem}/image", produces = { MediaType.IMAGE_GIF_VALUE, MediaType.IMAGE_JPEG_VALUE,
+	@GetMapping(value = "/{identifier}/image", produces = { MediaType.IMAGE_GIF_VALUE, MediaType.IMAGE_JPEG_VALUE,
 			MediaType.IMAGE_PNG_VALUE })
-	public ResponseEntity<?> downloadImage(@PathVariable String orderItem) throws IOException {
-		byte[] imageData = f_service.restoreImageByOrderItem(orderItem);
+	public ResponseEntity<?> downloadImage(@PathVariable String identifier) throws IOException {
+		byte[] imageData;
+		try {
+			int productId = Integer.parseInt(identifier);
+			imageData = f_service.restoreImage(productId);
+		} catch (NumberFormatException e) {
+			// If identifier is not a number, treat it as an orderItem
+			imageData = f_service.restoreImageByOrderItem(identifier);
+		}
 		return ResponseEntity.ok().contentType(MediaType.IMAGE_JPEG).body(imageData);
 	}
 

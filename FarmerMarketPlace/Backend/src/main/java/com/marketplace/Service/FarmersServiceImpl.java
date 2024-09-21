@@ -50,8 +50,13 @@ public class FarmersServiceImpl implements IFarmersService {
 	}
 
 	@Override
+	public byte[] restoreImage(int productId) throws IOException {
+		return f_dao.restoreImage(productId);
+	}
+
+	@Override
 	public byte[] restoreImageByOrderItem(String orderItem) throws IOException {
 		return f_dao.restoreImageByOrderItem(orderItem);
 	}
-	
+
 }

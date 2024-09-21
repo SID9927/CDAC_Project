@@ -16,7 +16,7 @@ public interface IFarmersService {
 	StockDetails getProductDetails(int farmerid, int productid);
 	List<StockDetails> getAllProduct();
 	String saveImage(int productId, MultipartFile imgFile) throws IOException;
+	byte[] restoreImage(int productId) throws IOException;
 	byte[] restoreImageByOrderItem(String orderItem) throws IOException;
 
-	
 }
