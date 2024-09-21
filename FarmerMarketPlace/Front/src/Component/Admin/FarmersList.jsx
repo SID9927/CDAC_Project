@@ -3,7 +3,7 @@ import farmerServices from "../../Services/farmer.services";
 import { useNavigate } from "react-router-dom";
 import AdminNavBar from "./AdminNavBar";
 import Footer from "../Footer";
-import './productlist.css';
+import '../../App.css';
 
 function FarmersList() {
   const [farmers, setFarmers] = useState([]);

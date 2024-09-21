@@ -4,6 +4,8 @@ import { useNavigate } from "react-router-dom";
 import toast from 'react-hot-toast';
 import logo from '../imagess/logo.png'
 import Footer from "./Footer";
+import '../App.css';
+
 
 function Register() {
 

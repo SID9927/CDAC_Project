@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import AdminNavBar from "./AdminNavBar";
 import toast, { Toaster } from "react-hot-toast";
 import Footer from "../Footer";
-import './category.css'
+import '../../App.css';
 
 function Category() {
   const navigate = useNavigate();

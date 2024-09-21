@@ -4,7 +4,7 @@ import farmerServices from "../../Services/farmer.services";
 import toast, { Toaster } from "react-hot-toast";
 import AdminNavBar from "./AdminNavBar";
 import Footer from "../Footer";
-import "./addnewfarmer.css";
+import '../../App.css';
 
 function AddNewFarmer() {
   const [email, setEmail] = useState("");

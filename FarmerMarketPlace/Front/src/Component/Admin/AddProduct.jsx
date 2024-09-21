@@ -4,7 +4,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import toast, { Toaster } from "react-hot-toast";
 import AdminNavBar from "./AdminNavBar";
 import Footer from "../Footer";
-import './addproduct.css';
+import '../../App.css';
 
 function AddProduct(props) {
   const [stockItem, setStockItem] = useState("");

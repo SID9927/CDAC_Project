@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import AdminNavBar from "./AdminNavBar";
 import Footer from "../Footer";
+import '../../App.css';
 import React, { useState, useEffect } from "react";
 import { Card, Row, Col, Button, Container } from "react-bootstrap";
 import {

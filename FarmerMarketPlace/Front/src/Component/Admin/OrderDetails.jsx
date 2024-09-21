@@ -3,7 +3,7 @@ import adminServices from "../../Services/admin.services";
 import AdminNavBar from "./AdminNavBar";
 import { useNavigate } from "react-router-dom";
 import Footer from "../Footer";
-import "./orderdetail.css";
+import '../../App.css';
 
 function OrderDetails() {
   const navigate = useNavigate();

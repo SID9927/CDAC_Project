@@ -6,7 +6,7 @@ import adminServices from "../../Services/admin.services";
 import AdminNavBar from "./AdminNavBar";
 import toast, { Toaster } from "react-hot-toast";
 import Footer from "../Footer";
-import './productlist.css';
+import '../../App.css';
 
 function ProductsList() {
   const [products, setProducts] = useState([]);

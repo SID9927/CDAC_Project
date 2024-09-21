@@ -1,38 +1,157 @@
-.card {
-    align-items: center;
-    appearance: none;
-    background-color: #FCFCFD;
-    border-radius: 4px;
-    border-width: 0;
-    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
-    box-sizing: border-box;
-    color: #36395A;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    font-family: "JetBrains Mono",monospace;
-    justify-content: center;
-    list-style: none;
-    overflow: hidden;
-    padding: 16px;
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --success-color: #28a745;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --info-color: #17a2b8;
+    --light-color: #f8f9fa;
+    --dark-color: #343a40;
+    --white-color: #ffffff;
+    --transparent-white: rgba(255, 255, 255, 0.9);
+    --shadow-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .custom-card {
+    background-color: var(--transparent-white);
+    border-radius: 20px;
+    box-shadow: 0 10px 20px var(--shadow-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .custom-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  }
+  
+  .custom-input,
+  .custom-select {
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .custom-input:focus,
+  .custom-select:focus {
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .custom-btn {
+    text-transform: uppercase;
     position: relative;
-    text-align: center;
-    text-decoration: none;
-    transition: box-shadow .15s,transform .15s;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    white-space: nowrap;
-    will-change: box-shadow,transform;
-    font-size: 18px;
-}
-
-.card:hover {
-    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
-    transform: translateY(-2px);
-}
-
-.card:active {
-    box-shadow: #D6D6E7 0 3px 7px inset;
-    transform: translateY(2px);
-}
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    font-weight: bold;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .custom-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .custom-btn:active {
+    transform: translateY(1px);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .custom-table {
+    overflow: hidden;
+  }
+  
+  .custom-row {
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-row:hover {
+    background-color: #d8f3dc;
+  }
+  
+  .custom-card img {
+    max-height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .badge.bg-success {
+    background-color: var(--success-color);
+    font-weight: bold;
+  }
+  
+  .badge.bg-warning {
+    background-color: var(--warning-color);
+    font-weight: bold;
+  }
+  
+  .modal-header {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+  }
+  
+  .modal-title {
+    font-weight: bold;
+  }
+  
+  /* Specific styles for different components */
+  
+  /* Admin.jsx */
+  .card {
+    border: none;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* AdminNavBar.jsx */
+  .navbar {
+    background-color: #52b788;
+  }
+  
+  .navbar-brand img {
+    width: 70px;
+    height: auto;
+  }
+  
+  /* Category.jsx, FarmersList.jsx, OrderDetails.jsx, ProductsList.jsx, UsersList.jsx */
+  .table-primary {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+  }
+  
+  /* AddNewFarmer.jsx, AddProduct.jsx */
+  .form-control, .form-select {
+    margin-bottom: 1rem;
+  }
+  
+  /* Ensure consistent button styling across components */
+  .btn-primary, .btn-success, .btn-danger, .btn-info, .btn-warning {
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .custom-card {
+      margin-bottom: 20px;
+    }
+    
+    .custom-btn {
+      width: 100%;
+      margin: 5px 0;
+    }
+  }
+  

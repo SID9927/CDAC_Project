@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./SortProducts.css";
+import '../../App.css';
 import adminServices from "../../Services/admin.services";
 
 function SortProducts({

@@ -5,7 +5,7 @@ import toast, { Toaster } from "react-hot-toast";
 import logo from "../imagess/logo.png";
 import video1 from "../Video/video1.mp4";
 import Footer from "./Footer";
-import "./login.css";
+import '../App.css';
 
 function LoginForm() {
   const [username, setUsername] = useState("");

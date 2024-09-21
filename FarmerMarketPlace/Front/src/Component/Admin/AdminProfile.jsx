@@ -4,7 +4,7 @@ import AdminNavBar from "./AdminNavBar";
 import toast from "react-hot-toast";
 import adminServices from "../../Services/admin.services";
 import Footer from "../Footer";
-import "./adminprofile.css";
+import '../../App.css';
 
 function AdminProfile() {
   const [isDisabled, setIsDisabled] = useState(true);
