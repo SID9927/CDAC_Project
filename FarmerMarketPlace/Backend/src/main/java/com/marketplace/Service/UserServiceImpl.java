@@ -25,6 +25,17 @@ public class UserServiceImpl implements IUserService {
 	}
 
 	@Override
+	public void updateUser(User user) {
+		u_dao.updateUser(user);
+	}
+
+	@Override
+	public void removeCategory(int categoryId) {
+		u_dao.removeCategory(categoryId);
+	}
+
+
+	@Override
 	public User Authenticate(String email, String password) {
 		User user = u_dao.AuthenticateUser(email, password);
 		return user;
@@ -35,16 +46,23 @@ public class UserServiceImpl implements IUserService {
 		return u_dao.AddToCart(productid, qty);
 	}
 
-	@Override
-	public boolean PlaceOrder(Cart cart, User user) {
-		return u_dao.PlaceOrder(cart, user);
-	}
+		@Override
+		@Transactional
+		public boolean PlaceOrder(Cart cart, User user) {
+			try {
+				return u_dao.PlaceOrder(cart, user);
+			} catch (Exception e) {
+				e.printStackTrace();
+				return false;
+			}
+		}
 
 	@Override
+	@Transactional(readOnly = true)
 	public User getUserDetails(int userId) {
-		// TODO Auto-generated method stub
 		return u_dao.getUserDetails(userId);
 	}
+
 
 	@Override
 	public List<OrderDetails> getOrder(int userId) {

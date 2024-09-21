@@ -13,7 +13,8 @@ public interface IUserDao {
 	public User AuthenticateUser(String email, String password);
 	public CartItem AddToCart(int productid, int qty);
 	public boolean PlaceOrder(Cart cart, User user);
-	public User getUserDetails(int userId);
+	User getUserDetails(int userId);
 	public List<OrderDetails> getOrder(int userId);
-	
+	void updateUser(User user);
+	void removeCategory(int categoryId);
 }

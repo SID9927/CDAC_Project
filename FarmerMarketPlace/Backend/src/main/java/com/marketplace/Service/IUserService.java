@@ -13,7 +13,9 @@ public interface IUserService {
 	public boolean Register(User user);
 	public CartItem AddToCart(int productid, int qty);
 	public boolean PlaceOrder(Cart cart, User user);
-	public User getUserDetails(int userId);
+	User getUserDetails(int userId);
 	public List<OrderDetails> getOrder(int userId);
-	
+	public void updateUser(User user);
+	public void removeCategory(int categoryId);
+
 }

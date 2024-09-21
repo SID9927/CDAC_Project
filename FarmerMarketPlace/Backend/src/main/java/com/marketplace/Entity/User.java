@@ -41,7 +41,7 @@ public class User implements Serializable {
 	private String lastname;
 
 	@Column(name = "is_admin")
-	private boolean isadmin;
+	private boolean isAdmin;
 
 	@OneToMany(mappedBy = "user")
 	@JsonIgnore
@@ -61,7 +61,7 @@ public class User implements Serializable {
 	}
 
 	public User(String email, String password, String phoneNo, String address, String firstname, String lastname,
-			boolean isadmin) {
+			boolean isAdmin) {
 		super();
 		this.email = email;
 		this.password = password;
@@ -69,13 +69,13 @@ public class User implements Serializable {
 		this.address = address;
 		this.firstname = firstname;
 		this.lastname = lastname;
-		this.isadmin = isadmin;
+		this.isAdmin = isAdmin;
 	}
 	
 	
 
 	public User(Integer userId, String email, String password, String phoneNo, String address, String firstname,
-			String lastname, boolean isadmin) {
+			String lastname, boolean isAdmin) {
 		super();
 		this.userId = userId;
 		this.email = email;
@@ -84,7 +84,7 @@ public class User implements Serializable {
 		this.address = address;
 		this.firstname = firstname;
 		this.lastname = lastname;
-		this.isadmin = isadmin;
+		this.isAdmin = isAdmin;
 	}
 	
 	public User(Integer userId, String email, String password, String phoneNo, String address, String firstname,
@@ -155,12 +155,12 @@ public class User implements Serializable {
 		lastname = aLastname;
 	}
 
-	public boolean isIsadmin() {
-		return isadmin;
+	public boolean getIsAdmin() {
+		return isAdmin;
 	}
 
-	public void setIsadmin(boolean isadmin) {
-		this.isadmin = isadmin;
+	public void setIsAdmin(boolean admin) {
+		this.isAdmin = isAdmin;
 	}
 
 	public List<Orders> getOrders() {

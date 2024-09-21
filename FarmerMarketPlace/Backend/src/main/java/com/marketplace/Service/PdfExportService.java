@@ -9,7 +9,6 @@ import java.util.stream.Stream;
 
 import org.springframework.stereotype.Service;
 
-import com.itextpdf.text.BadElementException;
 import com.itextpdf.text.BaseColor;
 import com.itextpdf.text.Chunk;
 import com.itextpdf.text.Document;
@@ -28,10 +27,10 @@ import com.marketplace.Entity.CartItem;
 
 @Service
 public class PdfExportService {
-	
+
 	public void export(List<CartItem> items) throws DocumentException, MalformedURLException, IOException, URISyntaxException {
-		
-		Image logo = Image.getInstance("fm.jpg");
+
+		Image logo = Image.getInstance(getClass().getResource("/logo.png"));
 		logo.scaleAbsolute(50, 50);
 		Document document = new Document();
 		PdfWriter.getInstance(document, new FileOutputStream("receipt.pdf"));
@@ -40,8 +39,8 @@ public class PdfExportService {
 		Font font = FontFactory.getFont(FontFactory.COURIER, 20, BaseColor.BLACK);
 		Paragraph p = new Paragraph();
 		p.setTabSettings(new TabSettings(56f));
-        p.add(Chunk.TABBING);
-        p.add(new Chunk("Farmers Marketplace", font));
+		p.add(Chunk.TABBING);
+		p.add(new Chunk("Farmers Marketplace", font));
 		document.add(p);
 		Chunk linebreak = new Chunk(new DottedLineSeparator());
 		document.add(linebreak);
@@ -51,23 +50,21 @@ public class PdfExportService {
 		addRows(table, items);
 
 		document.add(table);
-		
-		double grandtotal = 0.0;
 
-		for (CartItem item : items) {
-			grandtotal += item.getAmount();
-		}
-		
+		double grandTotal = items.stream()
+				.mapToDouble(CartItem::getAmount)
+				.sum();
+
 		for (int i = 0; i < 10; i++) {
 			document.add(Chunk.NEWLINE);
 		}
-		
-		Chunk c = new Chunk("Total Amount: "+grandtotal, font);
+
+		Chunk c = new Chunk("Total Amount: " + String.format("%.2f", grandTotal), font);
 		document.add(c);
-		
+
 		document.close();
 	}
-	
+
 	private void addTableHeader(PdfPTable table) {
 		Stream.of("Product Name", "Quantity", "Price", "Amount").forEach(columnTitle -> {
 			PdfPCell header = new PdfPCell();
@@ -78,14 +75,12 @@ public class PdfExportService {
 		});
 	}
 
-	private void addRows(PdfPTable table, List<CartItem> items)
-			throws URISyntaxException, BadElementException, MalformedURLException, IOException {
-
+	private void addRows(PdfPTable table, List<CartItem> items) {
 		for (CartItem cartItem : items) {
 			table.addCell(cartItem.getItem());
 			table.addCell(String.valueOf(cartItem.getQty()));
-			table.addCell(String.valueOf(cartItem.getPrice()));
-			table.addCell(String.valueOf(cartItem.getAmount()));
+			table.addCell(String.format("%.2f", cartItem.getPrice()));
+			table.addCell(String.format("%.2f", cartItem.getAmount()));
 		}
 	}
 }

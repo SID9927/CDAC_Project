@@ -1,9 +1,12 @@
 package com.marketplace.Service;
 
+import java.io.IOException;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.multipart.MultipartFile;
+
 import com.marketplace.DAO.IFarmersDao;
 import com.marketplace.Entity.Farmer;
 import com.marketplace.Entity.StockDetails;
@@ -41,5 +44,14 @@ public class FarmersServiceImpl implements IFarmersService {
 		return f_dao.getAllProduct();
 	}
 	
+	@Override
+	public String saveImage(int productId, MultipartFile imgFile) throws IOException {
+		return f_dao.saveImage(productId, imgFile);
+	}
+
+	@Override
+	public byte[] restoreImageByOrderItem(String orderItem) throws IOException {
+		return f_dao.restoreImageByOrderItem(orderItem);
+	}
 	
 }
