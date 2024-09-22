@@ -38,6 +38,18 @@ body {
   }
 }
 
+.Login-navbar {
+  background-color: #c6c8c8;
+}
+
+.Login-navbar-brand {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
+
 /* Navbar styles */
 .navbar {
   background-color: var(--navbar-color);

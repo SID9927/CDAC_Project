@@ -6,6 +6,8 @@ import logo from "../imagess/logo.png";
 import video1 from "../Video/video1.mp4";
 import Footer from "./Footer";
 import '../App.css';
+import LogoBrand from "./LogoBrand";
+
 
 function LoginForm() {
   const [username, setUsername] = useState("");
@@ -53,6 +55,8 @@ function LoginForm() {
   };
 
   return (
+    <div>
+      <LogoBrand/>
     <div className="login-container">
       <video autoPlay loop muted className="background-video">
         <source src={video1} type="video/mp4" />
@@ -60,14 +64,6 @@ function LoginForm() {
       </video>
       <div className="login-box">
         <div className="login-content">
-          <div className="text-center mb-4">
-            <img
-              src={logo}
-              alt="logo"
-              width="100"
-              style={{ borderRadius: "50px" }}
-            />
-          </div>
           <h1 className="fs-4 card-title fw-bold mb-4 text-center text-primary">
             Login
           </h1>
@@ -113,6 +109,7 @@ function LoginForm() {
       </div>
 
       {/* <Footer /> */}
+    </div>
     </div>
   );
 }
