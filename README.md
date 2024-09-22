@@ -1,4 +1,4 @@
-# Farmer's Marketplace
+# Farmer MarketPlace
 
 Farmer's Marketplace is a comprehensive e-commerce platform connecting farmers directly with consumers. This project aims to streamline the agricultural supply chain by providing a user-friendly interface for both farmers and customers.
 
