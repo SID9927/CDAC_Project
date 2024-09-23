@@ -55,7 +55,11 @@ function LoginForm() {
   };
 
   return (
-    <div>
+    <div style={{
+      height: "88vh",
+      display: "flex",
+      flexDirection: "column",
+    }}>
       <LogoBrand/>
     <div className="login-container">
       <video autoPlay loop muted className="background-video">
@@ -108,7 +112,7 @@ function LoginForm() {
         </div>
       </div>
 
-      {/* <Footer /> */}
+      <Footer />
     </div>
     </div>
   );

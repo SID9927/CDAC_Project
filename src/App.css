@@ -39,7 +39,7 @@ body {
 }
 
 .Login-navbar {
-  background-color: #c6c8c8;
+  background-color:#d2cec9;
 }
 
 .Login-navbar-brand {
@@ -507,3 +507,4 @@ body {
   border: none;
   transition: all 0.3s ease;
 }
+
