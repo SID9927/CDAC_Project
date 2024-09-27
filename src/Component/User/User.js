@@ -72,7 +72,8 @@ function User() {
                     <Card className="shadow-sm product-card">
                       <Card.Img
                         variant="top"
-                        src={`http://localhost:9090/FarmersMarketplace/farmer/${p.id}/image`}
+                        // src={`http://localhost:9090/FarmersMarketplace/farmer/${p.id}/image`}
+                        src={`https://farmermarketplaceaspnetcore-production.up.railway.app/farmer/${p.id}/image`}
                         className="product-image"
                       />
                       <Card.Body className="text-center">

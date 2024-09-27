@@ -5,7 +5,8 @@ function Product({ product }) {
         <div className="card shadow-sm" style={{ width: '22rem' }}>
             <div className="text-center p-3">
                 <img 
-                    src={`http://localhost:9090/FarmersMarketplace/farmer/${p.id}/image`} 
+                    // src={`http://localhost:9090/FarmersMarketplace/farmer/${p.id}/image`} 
+                    src={`https://farmermarketplaceaspnetcore-production.up.railway.app/farmer/${p.id}/image`} 
                     className="card-img-top rounded" 
                     alt={product.stockItem} 
                     style={{ width: '200px', height: '200px', objectFit: 'cover' }} 

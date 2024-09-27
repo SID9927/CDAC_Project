@@ -65,7 +65,8 @@ function Orders() {
                 <td className="text-center">
                   {
                     <img
-                      src={`http://localhost:9090/FarmersMarketplace/farmer/${o.orderItem}/image`}
+                      // src={`http://localhost:9090/FarmersMarketplace/farmer/${o.orderItem}/image`}
+                      src={`https://farmermarketplaceaspnetcore-production.up.railway.app/farmer/${o.orderItem}/image`}
                       alt="productImage"
                       width={75}
                     />
