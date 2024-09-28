@@ -130,8 +130,8 @@ function UsersList() {
                 <th>Phone No.</th>
                 <th>Email</th>
                 <th>Address</th>
-                <th>Is Admin?</th>
-                <th>Password</th>
+                {/* <th>Is Admin?</th> */}
+                {/* <th>Password</th> */}
                 <th>Function</th>
               </tr>
             </thead>
@@ -144,8 +144,8 @@ function UsersList() {
                   <td>{u.phoneNo}</td>
                   <td>{u.email}</td>
                   <td>{u.address}</td>
-                  <td>{u.isadmin ? "Yes" : "No"}</td>
-                  <td>{u.password}</td>
+                  {/* <td>{u.isadmin ? "Yes" : "No"}</td> */}
+                  {/* <td>{u.password}</td> */}
                   <td>
                     {/* Modal Trigger for User Update */}
                     <button

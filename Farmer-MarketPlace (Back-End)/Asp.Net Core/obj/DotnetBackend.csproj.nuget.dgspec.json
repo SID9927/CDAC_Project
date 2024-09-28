@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PG-DAC\\Project\\FarmerMarketPlaceASP.NetCore\\DotnetBackend.csproj": {}
+    "D:\\PG-DAC\\CDAC_Project\\Farmer-MarketPlace (Back-End)\\Asp.Net Core\\DotnetBackend.csproj": {}
   },
   "projects": {
-    "D:\\PG-DAC\\Project\\FarmerMarketPlaceASP.NetCore\\DotnetBackend.csproj": {
+    "D:\\PG-DAC\\CDAC_Project\\Farmer-MarketPlace (Back-End)\\Asp.Net Core\\DotnetBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PG-DAC\\Project\\FarmerMarketPlaceASP.NetCore\\DotnetBackend.csproj",
+        "projectUniqueName": "D:\\PG-DAC\\CDAC_Project\\Farmer-MarketPlace (Back-End)\\Asp.Net Core\\DotnetBackend.csproj",
         "projectName": "DotnetBackend",
-        "projectPath": "D:\\PG-DAC\\Project\\FarmerMarketPlaceASP.NetCore\\DotnetBackend.csproj",
+        "projectPath": "D:\\PG-DAC\\CDAC_Project\\Farmer-MarketPlace (Back-End)\\Asp.Net Core\\DotnetBackend.csproj",
         "packagesPath": "C:\\Users\\sid74\\.nuget\\packages\\",
-        "outputPath": "D:\\PG-DAC\\Project\\FarmerMarketPlaceASP.NetCore\\obj\\",
+        "outputPath": "D:\\PG-DAC\\CDAC_Project\\Farmer-MarketPlace (Back-End)\\Asp.Net Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sid74\\AppData\\Roaming\\NuGet\\NuGet.Config",

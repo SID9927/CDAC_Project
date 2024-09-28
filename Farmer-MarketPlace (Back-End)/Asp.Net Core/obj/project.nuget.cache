@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RBtyW//EbnI=",
+  "dgSpecHash": "PfpW4lRdSkE=",
   "success": true,
-  "projectFilePath": "D:\\PG-DAC\\Project\\FarmerMarketPlaceASP.NetCore\\DotnetBackend.csproj",
+  "projectFilePath": "D:\\PG-DAC\\CDAC_Project\\Farmer-MarketPlace (Back-End)\\Asp.Net Core\\DotnetBackend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sid74\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\sid74\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\bouncycastle.cryptography.2.4.0.nupkg.sha512",
