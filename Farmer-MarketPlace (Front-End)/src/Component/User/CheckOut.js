@@ -99,13 +99,18 @@ function CheckOut() {
                 <div key={index} className="card mb-3">
                   <div className="row g-0">
                     <div className="col-md-3">
-                      {/* <img src={`http://localhost:9090/FarmersMarketplace/farmer/${c.id}/image`} alt='productImage' className="img-fluid rounded-start" style={{maxHeight: '150px', objectFit: 'cover'}} /> */}
                       <img
-                        src={`https://farmermarketplaceaspnetcore-production.up.railway.app/farmer/${c.id}/image`}
+                        src={`http://localhost:9090/FarmersMarketplace/farmer/${c.id}/image`}
                         alt="productImage"
                         className="img-fluid rounded-start"
                         style={{ maxHeight: "150px", objectFit: "cover" }}
                       />
+                      {/* <img
+                        src={`https://farmermarketplaceaspnetcore-production.up.railway.app/farmer/${c.id}/image`}
+                        alt="productImage"
+                        className="img-fluid rounded-start"
+                        style={{ maxHeight: "150px", objectFit: "cover" }}
+                      /> */}
                     </div>
                     <div className="col-md-9">
                       <div className="card-body">

@@ -295,8 +295,8 @@ function ProductsList() {
                   <td>
                     <figure>
                       <img
-                        // src={`http://localhost:9090/FarmersMarketplace/farmer/${p.id}/image`}
-                        src={`https://farmermarketplaceaspnetcore-production.up.railway.app/farmer/${p.id}/image`}
+                        src={`http://localhost:9090/FarmersMarketplace/farmer/${p.id}/image`}
+                        // src={`https://farmermarketplaceaspnetcore-production.up.railway.app/farmer/${p.id}/image`}
                         alt="productImage"
                         width={75}
                         className="img-thumbnail"

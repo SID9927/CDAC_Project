@@ -22,11 +22,11 @@ function LoginForm() {
     var email = username;
 
     const user = { email, password };
-    console.log(user);
+    // console.log(user);
     userService
       .login(user)
       .then((respose) => {
-        console.log("User Login Credentials Send", respose.data);
+        // console.log("User Login Credentials Send", respose.data);
 
         if (respose.data.length === 0) {
           toast.error("Invalid Credentials", {

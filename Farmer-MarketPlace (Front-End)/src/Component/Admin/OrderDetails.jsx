@@ -72,8 +72,8 @@ function OrderDetails() {
                   <td>{o.orders?.placeOrderDate || 'N/A'}</td>
                   <td className="text-center">
                     <img
-                      // src={`http://localhost:9090/FarmersMarketplace/farmer/${o.orderItem}/image`}
-                      src={`https://farmermarketplaceaspnetcore-production.up.railway.app/farmer/${o.orderItem}/image`}
+                      src={`http://localhost:9090/FarmersMarketplace/farmer/${o.orderItem}/image`}
+                      // src={`https://farmermarketplaceaspnetcore-production.up.railway.app/farmer/${o.orderItem}/image`}
                       alt="productImage"
                       width={75}
                       className="img-thumbnail"
