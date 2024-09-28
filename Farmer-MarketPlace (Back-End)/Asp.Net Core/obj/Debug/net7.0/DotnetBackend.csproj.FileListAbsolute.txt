@@ -1,0 +1,261 @@
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\appsettings.json
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\DotnetBackend.exe
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\DotnetBackend.deps.json
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\DotnetBackend.runtimeconfig.json
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\DotnetBackend.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\DotnetBackend.pdb
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\BouncyCastle.Cryptography.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Google.Protobuf.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Humanizer.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\itext.barcodes.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\itext.forms.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\itext.io.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\itext.kernel.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\itext.layout.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\itext.pdfa.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\itext.sign.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\K4os.Compression.LZ4.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\K4os.Hash.xxHash.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\MailKit.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\System.Web.Cors.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\MimeKit.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\MySql.Data.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\MySql.EntityFrameworkCore.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\MySqlConnector.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\ZstdSharp.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\obj\Debug\net7.0\DotnetBackend.csproj.AssemblyReference.cache
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\obj\Debug\net7.0\DotnetBackend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\obj\Debug\net7.0\DotnetBackend.AssemblyInfoInputs.cache
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\obj\Debug\net7.0\DotnetBackend.AssemblyInfo.cs
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\obj\Debug\net7.0\DotnetBackend.csproj.CoreCompileInputs.cache
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\obj\Debug\net7.0\DotnetBackend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\obj\Debug\net7.0\DotnetBackend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\obj\Debug\net7.0\staticwebassets\msbuild.DotnetBackend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\obj\Debug\net7.0\staticwebassets\msbuild.build.DotnetBackend.props
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.DotnetBackend.props
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.DotnetBackend.props
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\obj\Debug\net7.0\scopedcss\bundle\DotnetBackend.styles.css
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\obj\Debug\net7.0\DotnetBa.122D998D.Up2Date
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\obj\Debug\net7.0\DotnetBackend.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\obj\Debug\net7.0\refint\DotnetBackend.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\obj\Debug\net7.0\DotnetBackend.pdb
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\obj\Debug\net7.0\DotnetBackend.genruntimeconfig.cache
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\obj\Debug\net7.0\ref\DotnetBackend.dll
+C:\Users\acer\source\repos\DotnetBackend\DotnetBackend\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\appsettings.json
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\DotnetBackend.exe
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\DotnetBackend.deps.json
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\DotnetBackend.runtimeconfig.json
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\DotnetBackend.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\DotnetBackend.pdb
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\BouncyCastle.Cryptography.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Google.Protobuf.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Humanizer.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\itext.barcodes.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\itext.forms.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\itext.io.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\itext.kernel.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\itext.layout.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\itext.pdfa.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\itext.sign.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\K4os.Compression.LZ4.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\K4os.Hash.xxHash.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\MailKit.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\System.Web.Cors.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\MimeKit.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\MySql.Data.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\MySql.EntityFrameworkCore.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\MySqlConnector.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\System.Formats.Asn1.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\ZstdSharp.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\obj\Debug\net7.0\DotnetBackend.csproj.AssemblyReference.cache
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\obj\Debug\net7.0\DotnetBackend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\obj\Debug\net7.0\DotnetBackend.AssemblyInfoInputs.cache
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\obj\Debug\net7.0\DotnetBackend.AssemblyInfo.cs
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\obj\Debug\net7.0\DotnetBackend.csproj.CoreCompileInputs.cache
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\obj\Debug\net7.0\DotnetBackend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\obj\Debug\net7.0\DotnetBackend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\obj\Debug\net7.0\staticwebassets\msbuild.DotnetBackend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\obj\Debug\net7.0\staticwebassets\msbuild.build.DotnetBackend.props
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.DotnetBackend.props
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.DotnetBackend.props
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\obj\Debug\net7.0\scopedcss\bundle\DotnetBackend.styles.css
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\obj\Debug\net7.0\DotnetBa.122D998D.Up2Date
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\obj\Debug\net7.0\DotnetBackend.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\obj\Debug\net7.0\refint\DotnetBackend.dll
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\obj\Debug\net7.0\DotnetBackend.pdb
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\obj\Debug\net7.0\DotnetBackend.genruntimeconfig.cache
+C:\Users\sid74\Desktop\FMP\FMP\FMP Dotnet\DotnetBackend\DotnetBackend\obj\Debug\net7.0\ref\DotnetBackend.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\appsettings.Development.json
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\appsettings.json
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\DotnetBackend.exe
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\DotnetBackend.deps.json
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\DotnetBackend.runtimeconfig.json
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\DotnetBackend.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\DotnetBackend.pdb
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\AutoMapper.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\BouncyCastle.Cryptography.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\Google.Protobuf.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\Humanizer.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\itext.barcodes.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\itext.bouncy-castle-connector.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\itext.forms.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\itext.io.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\itext.kernel.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\itext.layout.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\itext.pdfa.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\itext.pdfua.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\itext.sign.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\itext.styledxmlparser.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\itext.svg.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\itext.commons.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\K4os.Compression.LZ4.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\K4os.Compression.LZ4.Streams.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\K4os.Hash.xxHash.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\MailKit.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\MimeKit.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\MySql.Data.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\MySql.EntityFrameworkCore.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\MySqlConnector.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\System.Diagnostics.DiagnosticSource.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\System.Diagnostics.EventLog.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\System.Formats.Asn1.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\System.Security.Cryptography.Pkcs.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\System.Text.Encoding.CodePages.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\System.Text.Encodings.Web.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\System.Text.Json.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\ZstdSharp.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\runtimes\win-x64\native\comerr64.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\runtimes\win-x64\native\gssapi64.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\runtimes\win-x64\native\k5sprt64.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\runtimes\win-x64\native\krb5_64.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\runtimes\win-x64\native\krbcc64.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Diagnostics.EventLog.Messages.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Diagnostics.EventLog.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Text.Encoding.CodePages.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\runtimes\browser\lib\net7.0\System.Text.Encodings.Web.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\obj\Debug\net7.0\DotnetBackend.csproj.AssemblyReference.cache
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\obj\Debug\net7.0\DotnetBackend.GeneratedMSBuildEditorConfig.editorconfig
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\obj\Debug\net7.0\DotnetBackend.AssemblyInfoInputs.cache
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\obj\Debug\net7.0\DotnetBackend.AssemblyInfo.cs
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\obj\Debug\net7.0\DotnetBackend.csproj.CoreCompileInputs.cache
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\obj\Debug\net7.0\DotnetBackend.MvcApplicationPartsAssemblyInfo.cs
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\obj\Debug\net7.0\DotnetBackend.MvcApplicationPartsAssemblyInfo.cache
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\obj\Debug\net7.0\DotnetBackend.sourcelink.json
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\obj\Debug\net7.0\staticwebassets.build.json
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\obj\Debug\net7.0\staticwebassets.development.json
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\obj\Debug\net7.0\staticwebassets\msbuild.DotnetBackend.Microsoft.AspNetCore.StaticWebAssets.props
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\obj\Debug\net7.0\staticwebassets\msbuild.build.DotnetBackend.props
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.DotnetBackend.props
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.DotnetBackend.props
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\obj\Debug\net7.0\staticwebassets.pack.json
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\obj\Debug\net7.0\scopedcss\bundle\DotnetBackend.styles.css
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\obj\Debug\net7.0\DotnetBa.122D998D.Up2Date
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\obj\Debug\net7.0\DotnetBackend.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\obj\Debug\net7.0\refint\DotnetBackend.dll
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\obj\Debug\net7.0\DotnetBackend.pdb
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\obj\Debug\net7.0\DotnetBackend.genruntimeconfig.cache
+D:\PG-DAC\Project\FarmerMarketPlaceASP.NetCore\DotnetBackend\obj\Debug\net7.0\ref\DotnetBackend.dll
