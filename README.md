@@ -4,13 +4,20 @@
 
 The Farmers Market Place is a comprehensive e-commerce platform designed to connect farmers directly with consumers. This project aims to streamline the agricultural supply chain by providing a user-friendly interface for buying and selling farm-fresh produce and other agricultural goods.
 
-## Repository Structure
+## Repository
 
-This repository contains multiple components of the Farmers Market Place project:
+The main repository for this project is located at:
+https://github.com/SID9927/CDAC_PROJECT.git
 
-1. **Spring Boot Backend**: A Java-based backend application
-2. **ASP.NET Core Backend**: A C#-based backend alternative
-3. **React Frontend**: A responsive web interface for users
+## Project Structure
+
+The repository contains multiple components of the Farmers Market Place project:
+
+1. **Spring Boot Backend**: Java-based backend application
+2. **ASP.NET Core Backend**: C#-based backend alternative
+3. **React Frontend**: Responsive web interface for users
+
+All these components are saved in separate folders within the main repository.
 
 ## Features
 
@@ -50,13 +57,21 @@ This repository contains multiple components of the Farmers Market Place project
 
 ## Getting Started
 
+1. Clone the repository:
+
+git clone https://github.com/SID9927/CDAC_PROJECT.git
+
+2. Navigate to the project directory:
+
+cd CDAC_PROJECT
+
+
 ### Spring Boot Backend
 
 1. Ensure you have Java JDK 8 or higher installed
-2. Clone this repository
-3. Navigate to the Spring Boot project directory
-4. Run: `./mvnw spring-boot:run`
-5. Access the application at `http://localhost:9090`
+2. Navigate to the Spring Boot project directory
+3. Run: `./mvnw spring-boot:run`
+4. Access the application at `http://localhost:9090`
 
 ### ASP.NET Core Backend
 
@@ -78,7 +93,7 @@ For the ASP.NET Core backend, Swagger UI is available at the `/swagger` endpoint
 
 ## Contributing
 
-We welcome contributions to improve the Farmers Market Place. Please feel free to submit issues and pull requests.
+We welcome contributions to improve the Farmers Market Place. Please feel free to submit issues and pull requests to the main repository.
 
 ## License
 
@@ -90,4 +105,3 @@ This project is licensed under the MIT License.
 - React Credit Cards
 - React Hot Toast
 - React Icons
-
