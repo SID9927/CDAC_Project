@@ -1,1 +1,0 @@
-# FarmerMarketPlaceASP.NetCore
